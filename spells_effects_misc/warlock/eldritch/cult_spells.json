@@ -91,7 +91,7 @@
     "difficulty": 1,
     "base_casting_time": 100,
     "base_energy_cost": 1,
-    "damage_type": "biological"
+    "damage_type": "bash"
   },
   {
     "id": "bloodball",
@@ -116,7 +116,7 @@
     "difficulty": 4,
     "base_casting_time": 100,
     "base_energy_cost": 4,
-    "damage_type": "biological"
+    "damage_type": "bash"
   },
   {
     "id": "multi_bloodshot",
@@ -469,7 +469,7 @@
     "difficulty": 1,
     "base_casting_time": 100,
     "base_energy_cost": 1,
-    "damage_type": "biological",
+    "damage_type": "bash",
    "extra_effects": [ { "id": "bloodflame_effect" } ]
   },
   {

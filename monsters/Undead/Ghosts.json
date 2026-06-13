@@ -28,9 +28,7 @@
     "harvest": "exempt",
     "vision_day": 32,
     "vision_night": 12,
-    "weakpoint_sets": [ "wps_humanoid_body" ],
-    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-    "special_attacks": [ { "type": "spell", "spell_data": { "id": "smite", "min_level": 2 }, "cooldown": 20, "monster_message": "<color_yellow>%1$s lifts their blade!</color>" } ],
+    "death_function": ["MELT"],
     "flags": [ "SEES", "HEARS", "BASHES", "PATH_AVOID_DANGER_2", "NO_BREATHE", "PATH_AVOID_DANGER_2", "CAN_OPEN_DOORS" ]
   },
 {
@@ -58,8 +56,7 @@
     "harvest": "exempt",
     "vision_day": 32,
     "vision_night": 12,
-    "weakpoint_sets": [ "wps_humanoid_body" ],
-    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+    "death_function": ["MELT"],
     "path_settings": { "allow_open_doors": true, "avoid_sharp": true },
     "flags": [ "SEES", "HEARS", "BASHES", "PATH_AVOID_DANGER_2", "NO_BREATHE", "PATH_AVOID_DANGER_2", "CAN_OPEN_DOORS" ]
   },
@@ -89,7 +86,7 @@
     "dodge": 3,
     "vision_night": 20,
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ],
-    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+    "death_function": ["MELT"],
     "special_attacks": [ [ "PARROT_AT_DANGER", 0 ] ],
     "flags": [
       "ANIMAL",
@@ -130,7 +127,7 @@
     "fear_triggers": [ "SOUND" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
     "path_settings": { "avoid_sharp": true },
-    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+    "death_function": ["MELT"],
     "harvest": "exempt",
     "flags": [
       "SEES",
@@ -151,7 +148,6 @@
     "bodytype": "human",
     "categories": [ "MONSTERS" ],
     "species": [ "UNDEAD", "HUMAN" ],
-    "weakpoint_sets": [ "wps_humanoid_body" ],
     "volume": "174 L",
     "weight": "150 kg",
     "hp": 200,
@@ -181,7 +177,7 @@
     "harvest": "exempt",
     "vision_day": 32,
     "vision_night": 12,
-    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+    "death_function": ["MELT"],
     "path_settings": { "allow_open_doors": true, "avoid_traps": true, "avoid_sharp": true },
     "death_drops": {
       "subtype": "collection",

@@ -1,0 +1,49 @@
+[
+  {
+    "type": "MONSTER_FACTION",
+    "name": "were_beast",
+    "friendly": [ "small_animal", "fish", "rat" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "worg",
+    "friendly": [ "goblinoid" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "goblinoid",
+    "friendly": [ "worg" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "craig_spider",
+    "friendly": [ ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "construct",
+    "friendly": [ ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "demon",
+    "friendly": [ ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "eldritch",
+    "friendly": [ ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "dragon_fire"
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "dragon_ice"
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "dragon_storm"
+  }
+]

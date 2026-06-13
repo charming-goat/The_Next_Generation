@@ -1,0 +1,49 @@
+[
+{
+  "type": "SPECIES",
+  "id": "GOBLINOID",
+  "name": { "str": "Goblinkin" },
+  "description": "Stinky Goblins",
+  "fear_triggers": ["FIRE"]
+},
+{
+  "type": "SPECIES",
+  "id": "SPIDER_MTC",
+  "name": { "str": "Spiders" },
+  "anger_triggers": [ "FRIEND_DIED" ],
+  "fear_triggers": [ "HURT", "FIRE" ]
+},
+{
+  "type": "SPECIES",
+  "id": "CONSTRUCT",
+  "name": { "str": "Mechanical life" },
+  "description": "Some form of constructed life"
+},
+{
+  "type": "SPECIES",
+  "id": "DEMON",
+  "name": { "str": "Demons" },
+  "anger_triggers": [ "FRIEND_DIED" ],
+  "fear_triggers": [ "HURT" ]
+},
+{
+  "type": "SPECIES",
+  "id": "ELDRITCH",
+  "name": { "str": "Eldritch" },
+  "anger_triggers": [ "FRIEND_DIED" ],
+  "fear_triggers": [ "HURT" ]
+},
+{
+  "type": "SPECIES",
+  "id": "DRAGON",
+  "anger_triggers": [ "HURT" ],
+  "name": { "str": "Eldritch" }
+},
+{
+  "type": "SPECIES",
+  "id": "UNDEAD",
+  "description": "an undead",
+  "name": { "str": "Undead" },
+  "footsteps": [ "shuffling" ]
+}
+]

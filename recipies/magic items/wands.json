@@ -10,10 +10,7 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 }, { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 250 ] ], [ [ "q_staff", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 250 ] ], [ [ "q_staff", 1 ] ] ]
   },
 { 
     "result": "magic_focus_staff+2",
@@ -26,10 +23,7 @@
     "time": "30 m",
     "book_learn": [ [ "infusion_mid", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 }, { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 500 ] ], [ [ "q_staff", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": true } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 500 ] ], [ [ "q_staff", 1 ] ] ] 
   },
 { 
     "result": "magic_focus_staff+3",
@@ -42,10 +36,7 @@
     "time": "45 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 }, { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 1000 ] ], [ [ "q_staff", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": true } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 1000 ] ], [ [ "q_staff", 1 ] ] ] 
   },
 { 
     "result": "cleric_focus_staff",
@@ -58,9 +49,6 @@
     "time": "1 h",
     "book_learn": [ [ "divinity_general", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "q_staff", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "q_staff", 1 ] ] ]
   }   
 ]

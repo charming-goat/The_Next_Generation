@@ -4,10 +4,10 @@
     "type": "MONSTER",
     "name": { "str": "bugbear" },
     "description": "A large, savage humanoid distinct to its yellow skin and bear-like nose and claws. Out of all goblinoids, they are the largest, strongest and the worst.",
-    "default_faction": "goblinoid",
+    "default_faction": "GOBLINOID",
     "bodytype": "human",
     "categories": [ "MONSTERS" ],
-    "species": [ "GOBLINOID" ],
+    "species": [ "GOBLIN" ],
     "volume": "132 L",
     "weight": "180 kg",
     "hp": 135,
@@ -27,7 +27,6 @@
     "harvest": "demihuman",
     "vision_day": 40,
     "vision_night": 15,
-    "weakpoint_sets": [ "wps_humanoid_body" ],
     "death_drops": {
       "subtype": "collection",
       "items": [
@@ -36,7 +35,7 @@
     },
     "special_attacks": [ [ "PARROT", 200 ] ],
     "path_settings": { "allow_open_doors": true, "avoid_traps": true, "avoid_sharp": true },
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "FILTHY", "PATH_AVOID_DANGER_2", "CAN_OPEN_DOORS" ]
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "PATH_AVOID_DANGER_2", "CAN_OPEN_DOORS" ]
   },
   {
     "id": "mon_mtc_bugbear_warrior",
@@ -47,7 +46,6 @@
     "melee_skill": 8,
     "melee_dice": 6,
     "melee_dice_sides": 8,
-    "weakpoint_sets": [ "wps_humanoid_body" ],
     "death_drops": {
       "subtype": "collection",
       "items": [
@@ -64,7 +62,6 @@
     "name": { "str": "bugbear shaman" },
     "description": "A large, savage humanoid distinct to its yellow skin and bear-like nose and claws. Out of all goblinoids, they are the largest, strongest and the worst. Even with a bulky body, This shaman takes distance and aid its fellow bugbear in battle.",
     "melee_skill": 4,
-    "weakpoint_sets": [ "wps_humanoid_body" ],
     "death_drops": {
       "subtype": "collection",
       "items": [
@@ -81,7 +78,7 @@
           "monster_message": "<color_yellow>%1$s performs a hand gesture...</color>"
         }
       ],
-      "flags": [ "KEEP_DISTANCE" ]
+      "flags": [ "SEES", "HEARS" ]
     }
   },
   {
@@ -97,7 +94,6 @@
     "melee_damage": [ { "damage_type": "cut", "amount": 12 } ],
     "armor_stab": 8,
     "armor_bullet": 8,
-    "weakpoint_sets": [ "wps_humanoid_body" ],
     "death_drops": {
       "subtype": "collection",
       "items": [

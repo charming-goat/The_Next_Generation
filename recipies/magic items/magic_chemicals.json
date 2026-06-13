@@ -10,9 +10,6 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "ink", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "ink", 1 ] ] ]
   } 
 ]

@@ -18,7 +18,6 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 10000,
-    "freezing_point": 40
+    "price": 10000
   }
 ]

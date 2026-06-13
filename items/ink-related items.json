@@ -10,16 +10,7 @@
     "price": 1000,
     "material": "glass",
     "symbol": "U",
-    "color": "light_blue",
-    "pocket_data": [ {
-		"pocket_type": "CONTAINER",
-		"rigid": true,
-		"seals": true,
-		"watertight": true,
-		"max_contains_volume": "121 ml",
-        "max_contains_weight": "121 g",
-		"max_item_volume": "7 ml"
-	} ]
+    "color": "light_blue"
   },
   {
     "type": "COMESTIBLE",
@@ -38,7 +29,6 @@
     "volume": "3 ml",
     "phase": "liquid",
     "category": "chems",
-    "freezing_point": 0,
     "fun": -5
   },
   {
@@ -78,7 +68,6 @@
     "volume": "3 ml",
     "phase": "liquid",
     "category": "chems",
-    "freezing_point": 0,
 	"flags": [ "INEDIBLE" ],
     "fun": -5
   }

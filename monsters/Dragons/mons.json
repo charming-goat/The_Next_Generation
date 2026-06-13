@@ -1,22 +1,5 @@
 [
   {
-    "type": "SPECIES",
-    "id": "DRAGON",
-    "anger_triggers": [ "HURT" ]
-  },
-  {
-    "type": "MONSTER_FACTION",
-    "name": "dragon_fire"
-  },
-  {
-    "type": "MONSTER_FACTION",
-    "name": "dragon_ice"
-  },
-  {
-    "type": "MONSTER_FACTION",
-    "name": "dragon_storm"
-  },
-  {
     "id": "mon_mtc_dragon_fire_adult",
     "type": "MONSTER",
     "name": "dragon",

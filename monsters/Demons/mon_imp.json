@@ -1,15 +1,4 @@
 [
- {
-    "type": "MONSTER_FACTION",
-    "name": "demon",
-    "friendly": [ ]
-  },
-  {
-    "type": "SPECIES",
-    "id": "DEMON",
-    "anger_triggers": [ "FRIEND_DIED" ],
-    "fear_triggers": [ "HURT" ]
-  },
   {
     "id": "mon_mtc_imp",
     "type": "MONSTER",
@@ -40,7 +29,6 @@
     "harvest": "demihuman",
     "vision_day": 15,
     "vision_night": 30,
-    "weakpoint_sets": [ "wps_humanoid_body" ],
     "special_attacks": [ [ "PARROT", 200 ] ],
     "path_settings": { "allow_open_doors": true, "avoid_traps": true, "avoid_sharp": true },
     "flags": [ "SEES", "HEARS", "WARM", "BASHES", "PATH_AVOID_DANGER_2", "NO_BREATHE", "CAN_OPEN_DOORS" ]
@@ -109,17 +97,15 @@
         { "item": "spell_scroll_hellbolt", "prob": 15 }
       ]
     },
-    "extend": {
-      "special_attacks": [
+    "special_attacks": [
         {
           "type": "spell",
-          "spell_data": { "id": "hellbolt", "min_level": 2 },
+          "spell_data": { "id": "Hellbolt", "min_level": 2},
           "cooldown": 20,
           "monster_message": "<color_red>%1$s hurls a gout of fire!</color>"
         }
       ],
-      "flags": [ "KEEP_DISTANCE" ]
-    }
+      "flags": [ "PATH_AVOID_DANGER_1" ]
   },
 {
     "id": "mon_mtc_hellhound",
@@ -149,7 +135,6 @@
     "vision_night": 25,
     "vision_day": 30,
     "harvest": "mammal_fur",
-    "weakpoint_sets": [ "wps_natural_armor" ],
     "path_settings": { "max_dist": 12 },
     "anger_triggers": [ "STALK", "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "special_attacks": [ [ "LUNGE", 15 ], [ "HOWL", 5 ] ],
@@ -204,7 +189,6 @@
     "armor_cut": 25,
     "armor_stab": 25,
     "armor_bullet": 25,
-    "weakpoint_sets": [ "wps_humanoid_body", "wps_humanoid_light_armor" ],
     "death_drops": {
       "subtype": "collection",
       "items": [
@@ -234,7 +218,6 @@
     "armor_cut": 9,
     "armor_stab": 9,
     "armor_bullet": 9,
-    "weakpoint_sets": [ "wps_humanoid_body" ],
     "death_drops": {
       "subtype": "collection",
       "items": [
@@ -254,7 +237,7 @@
           "monster_message": "<color_red>%1$s sways and murmurs!</color>"
         }
       ],
-      "flags": [ "KEEP_DISTANCE" ]
+      "flags": [ "PATH_AVOID_DANGER_1" ]
     }
   } 
 ]

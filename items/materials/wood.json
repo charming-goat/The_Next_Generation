@@ -11,7 +11,6 @@
     "material": [ "wood" ],
     "weight": "30 kg",
     "volume": "50 L",
-    "longest_side": "140 cm",
     "bashing": 10,
     "to_hit": -10,
     "flags": [ "FIREWOOD" ]

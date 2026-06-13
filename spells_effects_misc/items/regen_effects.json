@@ -9,7 +9,6 @@
     "max_damage": 500,
     "effect": "recover_energy",
     "effect_str": "MANA",
-    "shape": "blast",
     "flags": [ "SILENT" ]
   }
 ]

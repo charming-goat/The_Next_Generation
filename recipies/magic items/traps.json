@@ -11,10 +11,7 @@
     "book_learn": [ [ "basic_tatoo", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
     "tools": [ [ [ "magic_feather_quill", -1 ] ], [ [ "channel_totem_metal", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "magic_ink", 4 ] ], [ [ "paper", 2 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": true } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "magic_ink", 4 ] ], [ [ "paper", 2 ] ] ] 
   },  
 { 
     "result": "frost_sigil",
@@ -28,10 +25,7 @@
     "book_learn": [ [ "basic_tatoo", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
     "tools": [ [ [ "magic_feather_quill", -1 ] ], [ [ "channel_totem_metal", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "magic_ink", 4 ] ], [ [ "paper", 2 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": true } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "magic_ink", 4 ] ], [ [ "paper", 2 ] ] ] 
   },  
 { 
     "result": "electric_sigil",
@@ -45,10 +39,7 @@
     "book_learn": [ [ "basic_tatoo", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
     "tools": [ [ [ "magic_feather_quill", -1 ] ], [ [ "channel_totem_metal", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "magic_ink", 4 ] ], [ [ "paper", 2 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": true } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "magic_ink", 4 ] ], [ [ "paper", 2 ] ] ] 
   },
 { 
     "result": "smoke_sigil",
@@ -62,10 +53,7 @@
     "book_learn": [ [ "basic_tatoo", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
     "tools": [ [ [ "magic_feather_quill", -1 ] ], [ [ "channel_totem_metal", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "magic_ink", 4 ] ], [ [ "paper", 2 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": true } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "magic_ink", 4 ] ], [ [ "paper", 2 ] ] ] 
   },
 { 
     "result": "gas_sigil",
@@ -79,10 +67,7 @@
     "book_learn": [ [ "basic_tatoo", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
     "tools": [ [ [ "magic_feather_quill", -1 ] ], [ [ "channel_totem_metal", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "magic_ink", 4 ] ], [ [ "paper", 2 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": true } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "magic_ink", 4 ] ], [ [ "paper", 2 ] ] ] 
   },
 { 
     "result": "acid_sigil",
@@ -96,10 +81,7 @@
     "book_learn": [ [ "basic_tatoo", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
     "tools": [ [ [ "magic_feather_quill", -1 ] ], [ [ "channel_totem_metal", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "magic_ink", 4 ] ], [ [ "paper", 2 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": true } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "magic_ink", 4 ] ], [ [ "paper", 2 ] ] ] 
   },
 { 
     "result": "bile_sigil",
@@ -113,10 +95,7 @@
     "book_learn": [ [ "basic_tatoo", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
     "tools": [ [ [ "magic_feather_quill", -1 ] ], [ [ "channel_totem_metal", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "magic_ink", 4 ] ], [ [ "paper", 2 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": true } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "magic_ink", 4 ] ], [ [ "paper", 2 ] ] ] 
   },
 { 
     "result": "web_sigil",
@@ -130,9 +109,6 @@
     "book_learn": [ [ "basic_tatoo", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
     "tools": [ [ [ "magic_feather_quill", -1 ] ], [ [ "channel_totem_metal", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "magic_ink", 4 ] ], [ [ "paper", 2 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": true } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "magic_ink", 4 ] ], [ [ "paper", 2 ] ] ] 
   }      
 ]

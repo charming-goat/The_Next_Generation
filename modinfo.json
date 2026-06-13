@@ -1,12 +1,14 @@
 [
   {
     "type": "MOD_INFO",
-    "ident": "fantasy",
-    "name": "Fantasy",
-    "authors": [ "Aptronym", "Mutaman", "Kenan" ],
-    "maintainers": [ "MNG-cataclysm" ],
-    "description": "Makes the world a simpler place. Will be modified as time goes on to include the various things we want in the fantasy conversion mod project.",
-    "category": "total_conversion",
-    "dependencies": [ "dda" ]
+    "id": "the_next_generation",
+    "name": "The next generation",
+    "authors": [ "Charming Goat" ],
+    "maintainers": [ "Charming Goat" ],
+    "description": "The next generation is a fantasy overhaul taking place years after the inital invasion in DDA. This overhaul aims to convert DDA into a post post apocalipse fantasy world where remenants of the old world still exist but society has reverted to a more fantastical state.",
+    "category": "content",
+    "dependencies": [ "bn" ],
+    "version": "0.1",
+    "obsolete": false
   }
 ]

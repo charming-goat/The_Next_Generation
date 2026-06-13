@@ -5,7 +5,7 @@
     "id": "spell_scroll_hellbolt",
     "name": { "str": "Scroll of Hellbolt", "str_pl": "Scrolls of Hellbolt" },
     "description": "Daemons, burn them!",
-    "use_action": { "type": "learn_spell", "spells": [ "hellbolt" ] }
+    "use_action": { "type": "learn_spell", "spells": [ "Hellbolt" ] }
   },
 {
     "type": "BOOK",

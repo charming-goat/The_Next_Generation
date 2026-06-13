@@ -73,7 +73,7 @@
     "symbol": "?",
     "material": [ "paper" ],
     "color": "red",
-    "use_action": { "type": "learn_spell", "spells": [ "hellbolt", "toxic_cloud", "hellswipe" ] }
+    "use_action": { "type": "learn_spell", "spells": [ "Hellbolt", "toxic_cloud", "hellswipe" ] }
   },
   {
     "id": "fiend2",

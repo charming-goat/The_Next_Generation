@@ -11,14 +11,14 @@
     "id": "mtc_rune_wield_dexterity_ench",
     "has": "WIELD",
     "condition": "ALWAYS",
-    "values": [ { "value": "SPEED", "add": 3 }, { "value": "ATTACK_SPEED", "add": 3 } ]
+    "values": [ { "value": "SPEED", "add": 3 }, { "value": "ATTACK_COST", "add": 3 } ]
   },
   {
     "type": "enchantment",
     "id": "mtc_rune_wield_intelligence_ench",
     "has": "WIELD",
     "condition": "ALWAYS",
-    "values": [ { "value": "INTELLIGENCE", "add": 1 }, { "value": "MAX_MANA", "add": 250 } ]
+    "values": [ { "value": "INTELLIGENCE", "add": 1 }, { "value": "MANA_CAP", "add": 250 } ]
   },
   {
     "type": "enchantment",
@@ -221,14 +221,14 @@
     "id": "mtc_rune_worn_dexterity_ench",
     "has": "WORN",
     "condition": "ALWAYS",
-    "values": [ { "value": "DEXTERITY", "add": 1 }, { "value": "SPEED", "add": 3 }, { "value": "ATTACK_SPEED", "add": 3 } ]
+    "values": [ { "value": "DEXTERITY", "add": 1 }, { "value": "SPEED", "add": 3 }, { "value": "ATTACK_COST", "add": 3 } ]
   },
   {
     "type": "enchantment",
     "id": "mtc_rune_worn_intelligence_ench",
     "has": "WORN",
     "condition": "ALWAYS",
-    "values": [ { "value": "INTELLIGENCE", "add": 1 }, { "value": "MAX_MANA", "add": 250 } ]
+    "values": [ { "value": "INTELLIGENCE", "add": 1 }, { "value": "MANA_CAP", "add": 250 } ]
   },
   {
     "type": "enchantment",

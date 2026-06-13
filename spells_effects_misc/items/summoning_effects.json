@@ -11,7 +11,6 @@
     "max_range": 1,
     "min_aoe": 1,
     "max_aoe": 1,
-    "shape": "blast",
     "effect": "summon",
     "effect_str": "mon_guarding_spirit",
     "min_duration": 30000,

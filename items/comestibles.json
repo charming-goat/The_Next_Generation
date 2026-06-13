@@ -121,7 +121,6 @@
     "volume": "250 ml",
     "phase": "liquid",
     "flags": [ "EATEN_COLD" ],
-    "freezing_point": 23,
     "fun": 10,
     "vitamins": [ [ "calcium", 1 ] ]
   }

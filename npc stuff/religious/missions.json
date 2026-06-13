@@ -12,7 +12,7 @@
     "followup": "MISSION_SAINT_BENEVOLENCE", 
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_spawn_item": "copper_coin", "count": 15 }
+		{ "u_sell_item": "copper_coin", "count": 15 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -40,7 +40,7 @@
     "followup": "MISSION_HOLY_SYMBOL",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_spawn_item": "copper_coin", "count": 35 }
+		{ "u_sell_item": "copper_coin", "count": 35 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -68,8 +68,8 @@
     "followup": "MISSION_CLERIC_2",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_spawn_item": "copper_coin", "count": 35 },
-		{ "u_spawn_item": "gods_and_godesses" }
+		{ "u_sell_item": "copper_coin", "count": 35 },
+		{ "u_sell_item": "gods_and_godesses" }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -97,7 +97,7 @@
     "followup": "MISSION_CLERIC_3",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"start": { "effect": [
-		{ "u_spawn_item": "holy_symbol_wood" },
+		{ "u_sell_item": "holy_symbol_wood" },
                 { "u_add_var": "church_member", "type": "dialogue", "context": "mission", "value": "yes" }
 		] },
 	"has_generic_rewards": true,
@@ -126,8 +126,8 @@
     "followup": "MISSION_CLERIC_4",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"start": { "effect": [
-		{ "u_spawn_item": "holy_symbol_wood" },
-		{ "u_spawn_item": "divinity_general" }
+		{ "u_sell_item": "holy_symbol_wood" },
+		{ "u_sell_item": "divinity_general" }
 		] },
 	"has_generic_rewards": true,
 	"dialogue": {
@@ -155,7 +155,7 @@
     "followup": "MISSION_CLERIC_5",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"start": { "effect": [
-		{ "u_spawn_item": "holy_symbol_wood", "count": 3 }
+		{ "u_sell_item": "holy_symbol_wood", "count": 3 }
 		] },
 	"has_generic_rewards": true,
 	"dialogue": {
@@ -183,8 +183,8 @@
     "followup": "MISSION_CLERIC_6",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"start": { "effect": [
-		{ "u_spawn_item": "holy_symbol_wood" },              
-		{ "u_spawn_item": "divinity_life" }
+		{ "u_sell_item": "holy_symbol_wood" },              
+		{ "u_sell_item": "divinity_life" }
 		] },
 	"has_generic_rewards": true,
 	"dialogue": {
@@ -212,8 +212,8 @@
     "followup": "MISSION_CLERIC_7",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"start": { "effect": [
-		{ "u_spawn_item": "holy_symbol_wood" },              
-		{ "u_spawn_item": "divinity_war" }
+		{ "u_sell_item": "holy_symbol_wood" },              
+		{ "u_sell_item": "divinity_war" }
 		] },
 	"has_generic_rewards": true,
 	"dialogue": {
@@ -241,8 +241,8 @@
     "followup": "MISSION_CLERIC_8",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"start": { "effect": [
-		{ "u_spawn_item": "holy_symbol_wood" },              
-		{ "u_spawn_item": "divinity_light" }
+		{ "u_sell_item": "holy_symbol_wood" },              
+		{ "u_sell_item": "divinity_light" }
 		] },
 	"has_generic_rewards": true,
 	"dialogue": {
@@ -270,8 +270,8 @@
     "followup": "MISSION_HOLY_SYMBOL",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"start": { "effect": [
-		{ "u_spawn_item": "holy_symbol_wood" },              
-		{ "u_spawn_item": "divinity_twilight" }
+		{ "u_sell_item": "holy_symbol_wood" },              
+		{ "u_sell_item": "divinity_twilight" }
 		] },
 	"has_generic_rewards": true,
 	"dialogue": {

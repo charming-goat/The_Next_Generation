@@ -12,7 +12,7 @@
     "volume": "250 ml",
     "weight": "5 g",
     "ammo_type": "pebble",
-    "damage": { "damage_type": "pure", "amount": 4 },
+    "damage": { "damage_type": "bullet", "amount": 4 },
     "range": 10,
     "dispersion": 14,
     "loudness": 0,
@@ -33,7 +33,6 @@
     "stack_size": 200,
     "phase": "liquid",
     "container": "bottle_glass",
-    "sealed": false,
     "symbol": "=",
     "color": "yellow",
     "material": [ "lamp_oil" ],
@@ -68,14 +67,13 @@
     "type": "material",
     "id": "crystallized_mana",
     "name": "Crystallized mana",
-    "copy-from": "stone",
-    "fuel_data": { "energy": "1000 kJ" }
+    "copy-from": "stone"
   },
   {
     "type": "material",
     "id": "mana",
     "name": "Mana",
     "copy-from": "pseudo_fuel",
-    "fuel_data": { "energy": "500000 kJ", "perpetual": true }
+    "fuel": { "energy": 500000, "perpetual": true }
   }
 ]

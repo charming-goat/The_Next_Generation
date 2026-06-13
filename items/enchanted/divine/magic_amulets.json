@@ -9,9 +9,7 @@
     "price": 5000,
     "charges_per_use": 1,
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": { "type": "cast_spell", "spell_id": "mu_spell_tend_wound", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 5 } } ]
+    "use_action": { "type": "cast_spell", "spell_id": "mu_spell_tend_wound", "no_fail": true, "level": 1, "need_worn": true }
   },  
 {
     "type": "TOOL_ARMOR",
@@ -22,9 +20,7 @@
     "price": 5000,
     "charges_per_use": 1,
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": { "type": "cast_spell", "spell_id": "mu_spell_bless", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 3 } } ]
+    "use_action": { "type": "cast_spell", "spell_id": "mu_spell_bless", "no_fail": true, "level": 1, "need_worn": true }
   },
 {
     "type": "TOOL_ARMOR",
@@ -35,9 +31,7 @@
     "price": 5000,
     "charges_per_use": 1,
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": { "type": "cast_spell", "spell_id": "guardians", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 3 } } ]
+    "use_action": { "type": "cast_spell", "spell_id": "guardians", "no_fail": true, "level": 1, "need_worn": true }
   },
 {
     "type": "TOOL_ARMOR",
@@ -48,9 +42,7 @@
     "price": 5000,
     "charges_per_use": 1,
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": { "type": "cast_spell", "spell_id": "force", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 3 } } ]
+    "use_action": { "type": "cast_spell", "spell_id": "force", "no_fail": true, "level": 1, "need_worn": true }
   },
 {
     "type": "TOOL_ARMOR",
@@ -61,9 +53,7 @@
     "price": 5000,
     "charges_per_use": 1,
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": { "type": "cast_spell", "spell_id": "mu_spell_shield_faith", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 5 } } ]
+    "use_action": { "type": "cast_spell", "spell_id": "mu_spell_shield_faith", "no_fail": true, "level": 1, "need_worn": true }
   },
 
 
@@ -77,9 +67,7 @@
     "price": 5000,
     "charges_per_use": 1,
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": { "type": "cast_spell", "spell_id": "spare_dying", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 10 } } ]
+    "use_action": { "type": "cast_spell", "spell_id": "spare_dying", "no_fail": true, "level": 1, "need_worn": true }
   },
 {
     "type": "TOOL_ARMOR",
@@ -90,9 +78,7 @@
     "price": 5000,
     "charges_per_use": 1,
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": { "type": "cast_spell", "spell_id": "mu_spell_shield_faith", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 5 } } ]
+    "use_action": { "type": "cast_spell", "spell_id": "mu_spell_shield_faith", "no_fail": true, "level": 1, "need_worn": true }
   },  
 {
     "type": "TOOL_ARMOR",
@@ -103,9 +89,7 @@
     "price": 5000,
     "charges_per_use": 1,
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": { "type": "cast_spell", "spell_id": "ease_discomfort", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 5 } } ]
+    "use_action": { "type": "cast_spell", "spell_id": "ease_discomfort", "no_fail": true, "level": 1, "need_worn": true }
   },  
 
 
@@ -119,9 +103,7 @@
     "price": 5000,
     "charges_per_use": 1,
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": { "type": "cast_spell", "spell_id": "enlarged", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 1 } } ]
+    "use_action": { "type": "cast_spell", "spell_id": "enlarged", "no_fail": true, "level": 1, "need_worn": true }
   },  
 {
     "type": "TOOL_ARMOR",
@@ -132,9 +114,7 @@
     "price": 5000,
     "charges_per_use": 1,
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": { "type": "cast_spell", "spell_id": "force_greater_war", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 5 } } ]
+    "use_action": { "type": "cast_spell", "spell_id": "force_greater_war", "no_fail": true, "level": 1, "need_worn": true }
   },
 {
     "type": "TOOL_ARMOR",
@@ -145,9 +125,7 @@
     "price": 5000,
     "charges_per_use": 1,
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": { "type": "cast_spell", "spell_id": "cleave", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 3 } } ]
+    "use_action": { "type": "cast_spell", "spell_id": "cleave", "no_fail": true, "level": 1, "need_worn": true }
   },  
 
 
@@ -161,9 +139,7 @@
     "price": 5000,
     "charges_per_use": 1,
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": { "type": "cast_spell", "spell_id": "sacred_flame", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 5 } } ]
+    "use_action": { "type": "cast_spell", "spell_id": "sacred_flame", "no_fail": true, "level": 1, "need_worn": true }
   },
 {
     "type": "TOOL_ARMOR",
@@ -174,9 +150,7 @@
     "price": 5000,
     "charges_per_use": 1,
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": { "type": "cast_spell", "spell_id": "firesphere", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 5 } } ]
+    "use_action": { "type": "cast_spell", "spell_id": "firesphere", "no_fail": true, "level": 1, "need_worn": true }
   },
 {
     "type": "TOOL_ARMOR",
@@ -187,9 +161,7 @@
     "price": 5000,
     "charges_per_use": 1,
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": { "type": "cast_spell", "spell_id": "c_light", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 10 } } ]
+    "use_action": { "type": "cast_spell", "spell_id": "c_light", "no_fail": true, "level": 1, "need_worn": true }
   },
 
 
@@ -203,8 +175,6 @@
     "price": 5000,
     "charges_per_use": 1,
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": { "type": "cast_spell", "spell_id": "star_beam", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 10 } } ]
+    "use_action": { "type": "cast_spell", "spell_id": "star_beam", "no_fail": true, "level": 1, "need_worn": true }
   }
 ]

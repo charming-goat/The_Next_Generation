@@ -2,12 +2,11 @@
 	{
 		"id": "min_water_item_stun",
 		"type": "SPELL",
-		"name": "Magical mineral water stun",
+		"name": { "str": "Magical mineral water stun"},
 		"description": "Magical mineral water puts you in a state of trance!",
 		"flags": [ "SILENT" ],
 		"valid_targets": [ "self" ],
-		"effect": "attack",
-                "shape": "blast",
+		"effect": "target_attack",
 		"effect_str": "min_water_stun",
 		"min_duration": 6375,
 		"max_duration": 6375
@@ -22,8 +21,7 @@
 		"flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
 		"min_damage": -2,
 		"max_damage": -2,
-		"effect": "attack",
-                "shape": "blast",
+		"effect": "target_attack",
 		"extra_effects": [ { "id": "min_water_item_stun", "hit_self": true } ],
 		"min_duration": 1,
 		"max_duration": 1
@@ -35,7 +33,6 @@
     "description": "This is the first spell any mage learns, designed to teach them to manipulate mana to accomplish many minor tasks with a minimum of effort.  Eventually this becomes reflexive and you can simply do things at will with no spell casting required, just using background mana.",
     "valid_targets": [ "self" ],
     "effect": "spawn_item",
-    "shape": "blast",
     "effect_str": "cantrip_item",
     "flags": [ "SILENT", "NO_HANDS", "VERBAL", "NO_LEGS" ],
     "energy_source": "MANA",

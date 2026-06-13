@@ -1,10 +1,5 @@
 [
   {
-    "type": "MONSTER_FACTION",
-    "name": "were_beast",
-    "friendly": [ "small_animal", "fish", "rat" ]
-  },
-  {
     "id": "mon_wereboar",
     "type": "MONSTER",
     "name": { "str": "wereboar" },
@@ -25,11 +20,10 @@
     "melee_skill": 5,
     "melee_dice": 2,
     "melee_dice_sides": 2,
-    "weakpoint_sets": [ "wps_humanoid_body" ],
-    "melee_damage": [ { "damage_type": "cut", "amount": 12, "armor_penetration": 25 } ],
+    "melee_cut": 12,
     "special_attacks": [
-      { "id": "scratch", "move_cost": 130, "cooldown": 4, "min_mul": 1.2, "max_mul": 3 },
-      { "id": "smash", "move_cost": 130, "cooldown": 8, "min_mul": 0.6, "throw_strength": 30 },
+      { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 23, "armor_multiplier": 0.8 } ] },
+      { "id": "slam", "damage_max_instance": [ { "damage_type": "cut", "amount": 23, "armor_multiplier": 0.8 } ] },
       {
         "type": "bite",
         "cooldown": 10,
@@ -41,12 +35,11 @@
     "armor_cut": 11,
     "armor_stab": 8,
     "armor_bullet": 5,
-    "bleed_rate": 70,
     "vision_day": 25,
     "vision_night": 8,
     "path_settings": { "max_dist": 30, "avoid_traps": true, "avoid_sharp": true },
     "harvest": "human_large_fur",
-    "anger_triggers": [ "HOSTILE_SEEN", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
+    "anger_triggers": [ "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
     "fear_triggers": [ "HURT", "FIRE" ],
     "flags": [ "SEES", "HEARS", "WARM", "SWARMS", "GROUP_MORALE", "BASHES", "GROUP_BASH", "PUSH_MON", "PATH_AVOID_DANGER_1" ]
   },
@@ -71,11 +64,10 @@
     "melee_skill": 5,
     "melee_dice": 2,
     "melee_dice_sides": 2,
-    "weakpoint_sets": [ "wps_humanoid_body" ],
-    "melee_damage": [ { "damage_type": "cut", "amount": 10, "armor_penetration": 10 } ],
+    "melee_cut": 10,
     "special_attacks": [
-      { "id": "scratch", "move_cost": 130, "cooldown": 4, "min_mul": 1.2, "max_mul": 3 },
-      { "id": "smash", "move_cost": 130, "cooldown": 8, "min_mul": 0.6, "throw_strength": 30 },
+     { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 23, "armor_multiplier": 0.8 } ] },
+      { "id": "slam", "damage_max_instance": [ { "damage_type": "cut", "amount": 23, "armor_multiplier": 0.8 } ] },
       {
         "type": "bite",
         "cooldown": 10,
@@ -87,12 +79,11 @@
     "armor_cut": 13,
     "armor_stab": 10,
     "armor_bullet": 7,
-    "bleed_rate": 70,
     "vision_day": 15,
     "vision_night": 15,
     "path_settings": { "max_dist": 30, "avoid_traps": true, "avoid_sharp": true },
     "harvest": "mutant_mammal_large_leather",
-    "anger_triggers": [ "HOSTILE_SEEN", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
+    "anger_triggers": [ "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
     "fear_triggers": [ "HURT", "FIRE" ],
     "flags": [ "SEES", "HEARS", "WARM", "SMELLS", "KEENNOSE", "BASHES", "GROUP_BASH", "PUSH_MON", "SWIMS", "PATH_AVOID_DANGER_1" ]
   }  

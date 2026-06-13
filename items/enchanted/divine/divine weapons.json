@@ -7,7 +7,6 @@
     "name": "divine longsword",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }
   },
 {
@@ -18,7 +17,6 @@
     "name": "divine wooden sword",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }
   },
   {
@@ -29,7 +27,6 @@
     "name": "divine makeshift knife",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }
   },
   {
@@ -40,7 +37,6 @@
     "name": "divine baselard",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }
   },
   {
@@ -51,7 +47,6 @@
     "name": "divine machete",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -62,7 +57,6 @@
     "name": "divine cavalry sabre",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -73,7 +67,6 @@
     "name": "divine kirs",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }  
   },
   {
@@ -84,7 +77,6 @@
     "name": "divine kukri",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }  
   },
   {
@@ -95,7 +87,6 @@
     "name": "jian",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -106,7 +97,6 @@
     "name": "divine scimitar",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }  
   },
   {
@@ -117,7 +107,6 @@
     "name": "divine estoc",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -128,7 +117,6 @@
     "name": "divine arming sword",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }  
   },
   {
@@ -139,7 +127,6 @@
     "name": "divine tanto",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -150,7 +137,6 @@
     "name": "divine wakizashi",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -161,7 +147,6 @@
     "name": "divine zweihander",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }  
   },
   {
@@ -172,7 +157,6 @@
     "name": "divine nodachi",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -183,7 +167,6 @@
     "name": "divine broadsword",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }  
   },
   {
@@ -194,7 +177,6 @@
     "name": "divine rapier",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }  
   },
   {
@@ -205,7 +187,6 @@
     "name": "divine katana",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }  
   },
   {
@@ -216,7 +197,6 @@
     "name": "divine butterfly swords",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -227,7 +207,6 @@
     "name": "divine cutlass",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -238,7 +217,6 @@
     "name": "divine lajatang",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }
   },
   {
@@ -248,7 +226,6 @@
     "looks_like": "2h_flail_steel",
     "name": "divine war flail","extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }
   },
   {
@@ -259,7 +236,6 @@
     "name": "divine peasant flail",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }  
   },
   {
@@ -270,7 +246,6 @@
     "name": "divine battleaxe",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -281,7 +256,6 @@
     "name": "divine bokken",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }  
   },
   {
@@ -292,7 +266,6 @@
     "name": "divine cudgel",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -303,7 +276,6 @@
     "name": "divine sledge hammer",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }  
   },
   {
@@ -314,7 +286,6 @@
     "name": "divine lucern hammer",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true }  
   },
   {
@@ -325,7 +296,6 @@
     "name": "divine mace",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -336,7 +306,6 @@
     "name": "divine morningstar",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -347,7 +316,6 @@
     "name": "divine quarterstaff",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -358,7 +326,6 @@
     "name": "divine shillelagh",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -369,7 +336,6 @@
     "name": "divine tonfa",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -380,7 +346,6 @@
     "name": "divine war hammer",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -391,7 +356,6 @@
     "name": "divine pitchfork",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -402,7 +366,6 @@
     "name": "divine spear",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -413,7 +376,6 @@
     "name": "divine qiang",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -424,7 +386,6 @@
     "name": "divine halberd",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -435,7 +396,6 @@
     "name": "divine glave",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -446,7 +406,6 @@
     "name": "divine naginata",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -457,7 +416,6 @@
     "name": "divine pike",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -468,7 +426,6 @@
     "name": "divine tiger claws",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -479,7 +436,6 @@
     "name": { "str": "divine cestus", "str_pl": "divine cestuses" },
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -490,7 +446,6 @@
     "name": { "str": "pair of divine brass knuckles", "str_pl": "pairs of divine brass knuckles" },
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   },
   {
@@ -501,7 +456,6 @@
     "name": "divine punch dagger",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ],
     "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": false, "level": 1, "need_wielding": true } 
   }  
 ]

@@ -11,7 +11,7 @@
                 {
 		"text": "Is there anything I can help you with?",
 		"topic": "TALK_CULT_JOBS",                
-                "condition": { "u_has_var": "church_member", "type": "dialogue", "context": "mission" }
+                "condition": { "u_has_var": "church_member", "type": "dialogue", "context": "mission", "value": "yes" }
 		},
 		{
 		"text": "Goodbye.",

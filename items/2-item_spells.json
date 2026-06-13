@@ -9,11 +9,10 @@
     "max_damage": 10,
     "min_range": 1,
     "max_range": 1,
-    "effect": "attack",
-    "shape": "blast",
+    "effect": "target_attack",
     "base_casting_time": 0,
     "base_energy_cost": 0,
-    "damage_type": "heat",
+    "damage_type": "fire",
     "energy_source": "MANA"
   }
 ]

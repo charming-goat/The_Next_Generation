@@ -1,3 +1,3 @@
-# Cataclysm: The Next Generation
+# Fantasy
  
-Cataclysm: The Next Generation aims to turn Cataclysm Bright Nights into a traditional fantasy roguelike. 
+ A collaboration between a small group of CDDA modders, Fantasy (name still being worked on), will be just what it sounds like, a fantasy world undergoing some decidedly rough times with lots of monsters rising up and making trouble. Adventures, quests, dungeons, you name it, it'll be in there.

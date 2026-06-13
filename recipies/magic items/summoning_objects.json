@@ -12,10 +12,7 @@
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
     "//": "Yes, you both learn from and need a Book of Golems to make this. The book is used a reference material.",
     "tools": [ [ [ "feather_quill", -1 ] ], [ [ "channel_totem_metal", -1 ] ], [ [ "book_of_golems", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 1000 ] ], [ [ "clay_lump", 231 ] ], [ [ "mountian_runed_totem", 1 ] ], [ [ "ink", 7 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": true } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 1000 ] ], [ [ "clay_lump", 231 ] ], [ [ "mountian_runed_totem", 1 ] ], [ [ "ink", 7 ] ] ] 
   },
 { 
     "result": "stonegolem_inactive",
@@ -29,10 +26,7 @@
     "book_learn": [ [ "book_of_golems", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
     "tools": [ [ [ "feather_quill", -1 ] ], [ [ "channel_totem_metal", -1 ] ], [ [ "book_of_golems", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 1000 ] ], [ [ "rock", 231 ] ], [ [ "mountian_runed_totem", 1 ] ], [ [ "ink", 7 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": true } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 1000 ] ], [ [ "rock", 231 ] ], [ [ "mountian_runed_totem", 1 ] ], [ [ "ink", 7 ] ] ] 
   },
 { 
     "result": "irongolem_inactive",
@@ -46,9 +40,6 @@
     "book_learn": [ [ "book_of_golems", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
     "tools": [ [ [ "feather_quill", -1 ] ], [ [ "channel_totem_metal", -1 ] ], [ [ "book_of_golems", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 1000 ] ], [ [ "steel_lump", 231 ], [ "steel_chunk", 462 ] ], [ [ "mountian_runed_totem", 1 ] ], [ [ "ink", 7 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": true }
-                     ]   
+    "components": [ [ [ "crystallized_mana", 1000 ] ], [ [ "steel_lump", 231 ], [ "steel_chunk", 462 ] ], [ [ "mountian_runed_totem", 1 ] ], [ [ "ink", 7 ] ] ]
   }    
 ]

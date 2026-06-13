@@ -6,8 +6,7 @@
     "description": "Nearby allies get combat bonuses.",
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "valid_targets": [ "ally", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
     "effect_str": "eff_mtc_goblin_warbanner_buff",
     "min_aoe": 16,
     "min_duration": 3000,
@@ -20,8 +19,7 @@
     "description": "This unit is waving their warbanner gloriously!",
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "valid_targets": [ "ally", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
     "effect_str": "controlled",
     "min_duration": 1000,
     "max_duration": 1500
@@ -37,8 +35,8 @@
     ],
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "min_range": 8
   },
   {
@@ -48,8 +46,8 @@
     "description": "This unit is restoring their power after a spellcast.",
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "valid_targets": [ "ally", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "effect_str": "controlled",
     "min_duration": 3000
   },
@@ -60,8 +58,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "extra_effects": [
       { "id": "mon_mtc_goblin_shaman_heal", "hit_self": true },
       { "id": "mon_mtc_goblin_shaman_spellbound", "hit_self": true }
@@ -76,8 +74,8 @@
     "description": "Heals all allies in the unit's range of vision.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "min_damage": -30,
     "min_aoe": 24
   },
@@ -88,8 +86,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "extra_effects": [
       { "id": "mon_mtc_goblin_shaman_debuff", "hit_self": true },
       { "id": "mon_mtc_goblin_shaman_buff", "hit_self": true },
@@ -105,8 +103,8 @@
     "description": "Provides combat bonuses to nearby allies.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "effect_str": "eff_mtc_goblin_shaman_buff",
     "min_aoe": 12,
     "min_duration": 2000
@@ -118,8 +116,8 @@
     "description": "Enlowers the target's raw power while increasing allies'.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "effect_str": "eff_mtc_goblin_shaman_debuff",
     "min_range": 12,
     "min_duration": 2000
@@ -137,8 +135,8 @@
     ],
     "flags": [ "SILENT", "WONDER" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "min_damage": 1,
     "max_damage": 1,
     "min_range": 12
@@ -152,8 +150,8 @@
     "valid_targets": [ "self" ],
     "min_damage": 69420,
     "max_damage": 69420,
-    "effect": "targeted_polymorph",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "effect_str": "mon_mtc_worg"
   },
   {
@@ -161,14 +159,14 @@
     "id": "mon_mtc_goblin_mounted_dismount",
     "name": "Dismount",
     "description": "The goblin dismounts from the worg.",
-    "flags": [ "SILENT", "HOSTILE_SUMMON", "RANDOM_TARGET", "PERMANENT", "SPAWN_GROUP" ],
+    "flags": [ "SILENT", "HOSTILE_SUMMON", "RANDOM_TARGET", "PERMANENT" ],
     "valid_targets": [ "ground" ],
     "min_damage": 1,
     "max_damage": 1,
     "min_range": 2,
     "max_range": 2,
     "effect": "summon",
-	"shape": "blast",
+	
     "effect_str": "GROUP_DMBB_GOBLIN_DISMOUNT"
   },
   {
@@ -182,8 +180,8 @@
     ],
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "min_range": 3
   },
   {
@@ -193,8 +191,8 @@
     "description": "This unit is restoring their power after a spellcast.",
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "valid_targets": [ "ally", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "effect_str": "controlled",
     "min_duration": 2500
   },
@@ -205,8 +203,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "extra_effects": [
       { "id": "mon_mtc_goblin_mage_hexblast" },
       { "id": "mon_mtc_goblin_mage_spellbound", "hit_self": true }
@@ -221,8 +219,8 @@
     "description": "Unleashes a dark bolt of mana.",
     "flags": [ "SILENT", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "min_damage": 4,
     "max_damage": 8,
     "min_range": 10
@@ -234,8 +232,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "extra_effects": [
       { "id": "mon_mtc_goblin_mage_poisoncoat" },
       { "id": "mon_mtc_goblin_mage_spellbound", "hit_self": true }
@@ -250,8 +248,8 @@
     "description": "Covers the target in poison clouds.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "ally", "ground" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "min_range": 12,
     "min_aoe": 2,
     "field_id": "fd_toxic_gas",
@@ -265,8 +263,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "extra_effects": [
       { "id": "mon_mtc_goblin_mage_firebolt" },
       { "id": "mon_mtc_goblin_mage_spellbound", "hit_self": true }
@@ -281,9 +279,9 @@
     "description": "Unleashes a bolt of fire.",
     "flags": [ "SILENT", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile" ],
-    "effect": "attack",
-	"shape": "blast",
-    "damage_type": "heat",
+    "effect": "target_attack",
+	
+    "damage_type": "fire",
     "min_damage": 4,
     "max_damage": 8,
     "min_range": 10
@@ -303,8 +301,8 @@
     ],
     "flags": [ "SILENT", "WONDER" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "min_damage": 1,
     "max_damage": 1,
     "min_range": 10
@@ -316,8 +314,8 @@
     "description": "This unit is restoring their power after a spellcast.",
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "valid_targets": [ "ally", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "effect_str": "controlled",
     "min_duration": 3000
   },
@@ -328,8 +326,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "extra_effects": [
       { "id": "mon_mtc_hobgoblin_shaman_heal", "hit_self": true },
       { "id": "mon_mtc_hobgoblin_shaman_spellbound", "hit_self": true }
@@ -344,8 +342,8 @@
     "description": "Heals all allies in the unit's range of vision.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "min_damage": -30,
     "min_aoe": 24
   },
@@ -356,8 +354,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "extra_effects": [
       { "id": "mon_mtc_hobgoblin_shaman_buff", "hit_self": true },
       { "id": "mon_mtc_hobgoblin_shaman_spellbound", "hit_self": true }
@@ -372,8 +370,8 @@
     "description": "Creates a ward that negates physical damage.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "effect_str": "eff_mtc_hobgoblin_shaman_buff",
     "min_aoe": 12,
     "min_duration": 500
@@ -391,8 +389,8 @@
     ],
     "flags": [ "SILENT", "WONDER" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "min_damage": 1,
     "max_damage": 1,
     "min_range": 12
@@ -404,8 +402,8 @@
     "description": "This unit is restoring their power after a spellcast.",
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "valid_targets": [ "ally", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "effect_str": "controlled",
     "min_duration": 3500
   },
@@ -416,8 +414,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "extra_effects": [
       { "id": "mon_mtc_bugbear_shaman_hexbeam" },
       { "id": "mon_mtc_bugbear_shaman_spellbound", "hit_self": true }
@@ -432,8 +430,7 @@
     "description": "Jolts a beam of dark mana.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "ground" ],
-    "effect": "attack",
-	"shape": "line",
+    "effect": "target_attack",
     "min_damage": 6,
     "max_damage": 12,
     "min_range": 10
@@ -445,8 +442,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "extra_effects": [
       { "id": "mon_mtc_bugbear_shaman_heal", "hit_self": true },
       { "id": "mon_mtc_bugbear_shaman_spellbound", "hit_self": true }
@@ -461,8 +458,8 @@
     "description": "Heals all allies in the unit's range of vision.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "min_damage": -30,
     "min_aoe": 20
   },
@@ -473,8 +470,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "extra_effects": [
       { "id": "mon_mtc_bugbear_shaman_buff", "hit_self": true },
       { "id": "mon_mtc_bugbear_shaman_spellbound", "hit_self": true }
@@ -489,8 +486,8 @@
     "description": "Increases combat efficiency of allies.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "effect_str": "eff_mtc_bugbear_shaman_buff",
     "min_aoe": 20,
     "min_duration": 2000
@@ -509,8 +506,8 @@
     ],
     "flags": [ "SILENT", "WONDER" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "min_damage": 1,
     "max_damage": 1,
     "min_range": 10
@@ -528,8 +525,8 @@
     ],
     "flags": [ "SILENT", "WONDER" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "min_damage": 1,
     "max_damage": 1,
     "min_range": 10
@@ -552,7 +549,7 @@
     "max_level": 20,
     "base_energy_cost": 0,
     "energy_source": "MANA",
-    "shape": "blast",
+    
     "effect": "summon",
     "effect_str": "mon_mtc_goblin_skeleton",
     "min_duration": 30000,
@@ -577,7 +574,7 @@
     "base_energy_cost": 0,
     "energy_source": "MANA",
     "flags": [ "HOSTILE_SUMMON" ],
-    "shape": "blast",
+    
     "effect": "summon",
     "effect_str": "mon_mtc_goblin_zombie",
     "min_duration": 30000,
@@ -602,7 +599,7 @@
     "base_energy_cost": 0,
     "energy_source": "MANA",
     "flags": [ "HOSTILE_SUMMON", "PERMANENT" ],
-    "shape": "blast",
+    
     "effect": "summon",
     "effect_str": "mon_shyleggah",
     "min_duration": 1,
@@ -621,8 +618,8 @@
     ],
     "flags": [ "SILENT", "WONDER" ],
     "valid_targets": [ "hostile" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "min_damage": 1,
     "max_damage": 1,
     "min_range": 10
@@ -640,8 +637,8 @@
     ],
     "flags": [ "SILENT", "WONDER" ],
     "valid_targets": [ "hostile" ],
-    "effect": "attack",
-	"shape": "blast",
+    "effect": "target_attack",
+	
     "min_damage": 1,
     "max_damage": 1,
     "min_range": 10

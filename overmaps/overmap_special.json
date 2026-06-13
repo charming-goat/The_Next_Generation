@@ -4,8 +4,8 @@
     "id": "magical_mineral_pond",
     "overmaps": [
 	  { "point": [ 0, 0, 0 ], "overmap": "Magical_Pond1_north" },
-      { "point": [ 1, 0, 0 ], "overmap": "Magical_Pond2_north" },
-      { "point": [ 0, 0, -1 ], "overmap": "Magical_Pond_Caves1_north" },
+    { "point": [ 1, 0, 0 ], "overmap": "Magical_Pond2_north" },
+    { "point": [ 0, 0, -1 ], "overmap": "Magical_Pond_Caves1_north" },
 	  { "point": [ 1, 0, -1 ], "overmap": "Magical_Pond_Caves2_north" }
     ],
     "locations": [ "land" ],
@@ -600,7 +600,7 @@
           { "point": [ -2, -4, 0 ], "overmap": "farm_field_open_north" },
           { "point": [ 2, -4, 0 ], "overmap": "farm_field_open_north" }
     ],
-    "connections": [ { "point": [ 0, 1, 0 ], "terrain": "road" } ],
+    "connections": [ { "point": [ 0, 1, 0 ], "connection": "road" } ],
     "locations": [ "wilderness" ],
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 1, -1 ],
@@ -619,7 +619,7 @@
           { "point": [ 1, 1, 0 ], "overmap": "ranch_barn_north" },
           { "point": [ 1, 1, 1 ], "overmap": "ranch_barn_roof_north" }
     ],
-    "connections": [ { "point": [ 0, 2, 0 ], "terrain": "road" } ],
+    "connections": [ { "point": [ 0, 2, 0 ], "connection": "road" } ],
     "locations": [ "land" ],
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 1, -1 ],
@@ -656,7 +656,7 @@
     "type": "overmap_special",
     "id": "cemetery_mtc",
     "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "cemetary_mtc_north" }, { "point": [ 0, 0, 1 ], "overmap": "cemetary_roof_north" } ],
-    "connections": [ { "point": [ 0, -1, 0 ], "terrain": "road" } ],
+    "connections": [ { "point": [ 0, -1, 0 ], "connection": "road" } ],
     "locations": [ "forest", "swamp", "land" ],
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 1, -1 ],
@@ -670,7 +670,7 @@
       { "point": [ 0, 0, 0 ], "overmap": "home_north" },
       { "point": [ 0, 0, 1 ], "overmap": "home_roof_north" }
     ],
-    "connections": [ { "point": [ 0, -1, 0 ], "terrain": "road" } ],
+    "connections": [ { "point": [ 0, -1, 0 ], "connection": "road" } ],
     "locations": [ "forest", "swamp", "land" ],
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 1, -1 ],
@@ -684,7 +684,7 @@
       { "point": [ 0, 0, 0 ], "overmap": "home2_north" },
       { "point": [ 0, 0, 1 ], "overmap": "home2_roof_north" }
     ],
-    "connections": [ { "point": [ 0, -1, 0 ], "terrain": "road" } ],
+    "connections": [ { "point": [ 0, -1, 0 ], "connection": "road" } ],
     "locations": [ "forest", "swamp", "land" ],
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 1, -1 ],
@@ -698,7 +698,7 @@
       { "point": [ 0, 0, 0 ], "overmap": "church_mtc_north" },
       { "point": [ 0, 0, 1 ], "overmap": "church_roof_north" }
     ],
-    "connections": [ { "point": [ 0, -1, 0 ], "terrain": "road" } ],
+    "connections": [ { "point": [ 0, -1, 0 ], "connection": "road" } ],
     "locations": [ "forest", "swamp", "land" ],
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 1, -1 ],
@@ -711,7 +711,7 @@
     "overmaps": [
       { "point": [ 0, 0, 0 ], "overmap": "lumber_yard_mtc_north" }
     ],
-    "connections": [ { "point": [ 0, 1, 0 ], "terrain": "road" } ],
+    "connections": [ { "point": [ 0, 1, 0 ], "connection": "road" } ],
     "locations": [ "forest" ],
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 1, -1 ],
@@ -770,7 +770,7 @@
       { "point": [ 0, -2, -2 ], "overmap": "ocata5_north" } 
     ],
     "occurrences": [ 0, 3 ],
-    "connections": [ { "point": [ 0, 3, -1 ], "terrain": "subway" } ],
+    "connections": [ { "point": [ 0, 3, -1 ], "connection": "subway" } ],
     "flags": [ "FANTASY", "CLASSIC", "WILDERNESS" ]
   },
 {
@@ -780,7 +780,7 @@
       { "point": [ 0, 0, 0 ], "overmap": "wizard_study_north" },
       { "point": [ 0, 0, 1 ], "overmap": "wizard_study_roof_north" }
     ],
-    "connections": [ { "point": [ 0, -1, 0 ], "terrain": "road" } ],
+    "connections": [ { "point": [ 0, -1, 0 ], "connection": "road" } ],
     "locations": [ "forest", "swamp", "land" ],
     "city_distance": [ 3, -1 ],
     "city_sizes": [ 1, -1 ],
@@ -809,7 +809,7 @@
       { "point": [ 0, -2, -1 ], "overmap": "trial_maze_enter_north" },
       { "point": [ 0, -1, -1 ], "overmap": "trial_maze_second_north" }
     ],
-    "connections": [ { "point": [ 0, 1, 0 ], "terrain": "road" } ],
+    "connections": [ { "point": [ 0, 1, 0 ], "connection": "road" } ],
     "locations": [ "forest", "swamp", "land" ],
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 1, -1 ],
@@ -979,7 +979,7 @@
       { "point": [ 3, 34, -2 ], "overmap": "cave_blank_north" },
       { "point": [ 3, 35, -2 ], "overmap": "cave_blank_north" }
     ],
-    "connections": [ { "point": [ 0, -1, -2 ], "terrain": "subway" }, { "point": [ 0, 36, -2 ], "terrain": "subway" } ],
+    "connections": [ { "point": [ 0, -1, -2 ], "connection": "subway" }, { "point": [ 0, 36, -2 ], "connection": "subway" } ],
     "locations": [ "land", "forest", "wilderness", "swamp", "field" ],
     "city_distance": [ 3, -1 ],
     "city_sizes": [ 0, -1 ],
@@ -1075,7 +1075,7 @@
       { "point": [ 3, 19, -2 ], "overmap": "mushroom_cave_blank_north" },
       { "point": [ 3, 20, -2 ], "overmap": "mushroom_cave_blank_north" }
     ],
-    "connections": [ { "point": [ 0, -1, -2 ], "terrain": "subway" }, { "point": [ 0, 21, -2 ], "terrain": "subway" } ],
+    "connections": [ { "point": [ 0, -1, -2 ], "connection": "subway" }, { "point": [ 0, 21, -2 ], "connection": "subway" } ],
     "locations": [ "land", "forest", "wilderness", "swamp", "field" ],
     "city_distance": [ 3, -1 ],
     "city_sizes": [ 0, -1 ],
@@ -1199,7 +1199,7 @@
       { "point": [ -3, 14, -2 ], "overmap": "flooded_cave_blank_north" },
       { "point": [ -3, 15, -2 ], "overmap": "flooded_cave_blank_north" }
     ],
-    "connections": [ { "point": [ 0, -1, -2 ], "terrain": "subway" } ],
+    "connections": [ { "point": [ 0, -1, -2 ], "connection": "subway" } ],
     "locations": [ "land", "forest", "wilderness", "swamp", "field" ],
     "city_distance": [ 3, -1 ],
     "city_sizes": [ 0, -1 ],
@@ -1223,7 +1223,7 @@
       { "point": [ -1, 2, -2 ], "overmap": "ruined_settlement_blank_north" },
       { "point": [ -1, 3, -2 ], "overmap": "ruined_settlement_blank_north" }
     ],
-    "connections": [ { "point": [ 0, -1, -2 ], "terrain": "subway" } ],
+    "connections": [ { "point": [ 0, -1, -2 ], "connection": "subway" } ],
     "locations": [ "land", "forest", "wilderness", "swamp", "field" ],
     "city_distance": [ 3, -1 ],
     "city_sizes": [ 0, -1 ],
@@ -1293,7 +1293,7 @@
       { "point": [ -3, -7, -3 ], "overmap": "ruined_settlement_blank_north" },
       { "point": [ -3, -8, -3 ], "overmap": "ruined_settlement_blank_north" }
     ],
-    "connections": [ { "point": [ 0, 1, -2 ], "terrain": "subway" }, { "point": [ 0, -9, -3 ], "terrain": "subway" } ],
+    "connections": [ { "point": [ 0, 1, -2 ], "connection": "subway" }, { "point": [ 0, -9, -3 ], "connection": "subway" } ],
     "locations": [ "land", "forest", "wilderness", "swamp", "field" ],
     "city_distance": [ 3, -1 ],
     "city_sizes": [ 0, -1 ],
@@ -1815,8 +1815,8 @@
 
     ],
     "locations": [ "land", "forest", "swamp" ],    
-    "connections": [ { "point": [ 3, 13, -2 ], "terrain": "subway" },
-                     { "point": [ -3, -12, -2 ], "terrain": "subway" } ],
+    "connections": [ { "point": [ 3, 13, -2 ], "connection": "subway" },
+                     { "point": [ -3, -12, -2 ], "connection": "subway" } ],
     "city_distance": [ 5, 15 ],
     "city_sizes": [ 0, -1 ],
     "occurrences": [ 0, 1 ],
@@ -2498,9 +2498,9 @@
           { "point": [ 11, 52, -5 ], "overmap": "cave_blank_north" }
     ],
     "locations": [ "land", "forest", "swamp" ],    
-    "connections": [ { "point": [ 3, 13, -2 ], "terrain": "subway" },
-                     { "point": [ -3, -12, -2 ], "terrain": "subway" },
-                     { "point": [ 12, 53, -5 ], "terrain": "subway" } ],
+    "connections": [ { "point": [ 3, 13, -2 ], "connection": "subway" },
+                     { "point": [ -3, -12, -2 ], "connection": "subway" },
+                     { "point": [ 12, 53, -5 ], "connection": "subway" } ],
     "city_distance": [ 2, 15 ],
     "city_sizes": [ 0, -1 ],
     "occurrences": [ 0, 1 ],
@@ -2545,7 +2545,7 @@
       { "point": [ -2, -6, -4 ], "overmap": "ruined_citadel_blank_north" },
       { "point": [ -2, -7, -4 ], "overmap": "ruined_citadel_blank_north" }
     ],
-    "connections": [ { "point": [ 0, 1, -3 ], "terrain": "subway" }, { "point": [ 0, -8, -4 ], "terrain": "subway" } ],
+    "connections": [ { "point": [ 0, 1, -3 ], "connection": "subway" }, { "point": [ 0, -8, -4 ], "connection": "subway" } ],
     "locations": [ "land", "forest", "wilderness", "swamp", "field" ],
     "city_distance": [ 3, -1 ],
     "city_sizes": [ 0, -1 ],
@@ -2561,7 +2561,7 @@
       { "point": [ 0, 1, -1 ], "overmap": "cave_downward_slope_blank_north" },
       { "point": [ 0, 1, -2 ], "overmap": "cave_upward_slope_blank_north" }
     ],
-    "connections": [ { "point": [ 0, 2, -2 ], "terrain": "subway" } ],
+    "connections": [ { "point": [ 0, 2, -2 ], "connection": "subway" } ],
     "locations": [ "land" ],
     "city_distance": [ 3, -1 ],
     "city_sizes": [ 0, -1 ],
@@ -2575,7 +2575,7 @@
       { "point": [ 0, 0, -2 ], "overmap": "cave_downward_slope_blank_north" },
       { "point": [ 0, 0, -3 ], "overmap": "cave_upward_slope_blank_north" }
     ],
-    "connections": [ { "point": [ 0, -1, -2 ], "terrain": "subway" }, { "point": [ 0, -1, -3 ], "terrain": "subway" } ],
+    "connections": [ { "point": [ 0, -1, -2 ], "connection": "subway" }, { "point": [ 0, -1, -3 ], "connection": "subway" } ],
     "locations": [ "land", "forest", "wilderness", "swamp", "field" ],
     "city_distance": [ 3, -1 ],
     "city_sizes": [ 0, -1 ],
@@ -2589,7 +2589,7 @@
       { "point": [ 0, 0, -3 ], "overmap": "cave_downward_slope_blank_north" },
       { "point": [ 0, 0, -4 ], "overmap": "cave_upward_slope_blank_north" }
     ],
-    "connections": [ { "point": [ 0, -1, -3 ], "terrain": "subway" }, { "point": [ 0, -1, -4 ], "terrain": "subway" } ],
+    "connections": [ { "point": [ 0, -1, -3 ], "connection": "subway" }, { "point": [ 0, -1, -4 ], "connection": "subway" } ],
     "locations": [ "land", "forest", "wilderness", "swamp", "field" ],
     "city_distance": [ 3, -1 ],
     "city_sizes": [ 0, -1 ],
@@ -2627,7 +2627,7 @@
       { "point": [ -1, -1, 1 ], "overmap": "mtc_cathedral_roof_north" },
       { "point": [ 1, -1, 1 ], "overmap": "mtc_cathedral_roof_north" }
     ],
-    "connections": [ { "point": [ 0, 1, 0 ], "terrain": "road" } ],
+    "connections": [ { "point": [ 0, 1, 0 ], "connection": "road" } ],
     "locations": [ "forest", "swamp", "land" ],
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 1, -1 ],
@@ -2694,7 +2694,7 @@
       { "point": [ -1, -2, -3 ], "overmap": "blank_mineshaft_north" },
       { "point": [ -1, 2, -3 ], "overmap": "blank_mineshaft_north" }
     ],
-    "connections": [ { "point": [ 0, 1, 0 ], "terrain": "road" } ],
+    "connections": [ { "point": [ 0, 1, 0 ], "connection": "road" } ],
     "locations": [ "forest", "swamp", "land" ],
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 1, -1 ],
@@ -2859,8 +2859,8 @@
       { "point": [ 17, 7, -6 ], "overmap": "demon_ruins_blank_north" },
       { "point": [ 18, 7, -6 ], "overmap": "demon_ruins_blank_north" }
     ],
-    "connections": [ { "point": [ 0, -2, -5 ], "terrain": "subway" },
-                     { "point": [ 0, -3, -3 ], "terrain": "subway" } ],
+    "connections": [ { "point": [ 0, -2, -5 ], "connection": "subway" },
+                     { "point": [ 0, -3, -3 ], "connection": "subway" } ],
     "locations": [ "land", "forest", "wilderness", "swamp", "field" ],
     "city_distance": [ 3, -1 ],
     "city_sizes": [ 0, -1 ],
@@ -2892,10 +2892,10 @@
 	  { "point": [ 0, 3, -3 ], "overmap": "u_swamp_blank_roof_north" } 
     ],
     "locations": [ "land", "forest", "wilderness", "swamp", "field" ],  
-    "connections": [ { "point": [ 0, -1, -5 ], "terrain": "subway" },
-                     { "point": [ 1, -1, -3 ], "terrain": "subway" },
-                     { "point": [ 2, -1, -3 ], "terrain": "subway" },
-                     { "point": [ 0, 2, -3 ], "terrain": "subway" }  ],
+    "connections": [ { "point": [ 0, -1, -5 ], "connection": "subway" },
+                     { "point": [ 1, -1, -3 ], "connection": "subway" },
+                     { "point": [ 2, -1, -3 ], "connection": "subway" },
+                     { "point": [ 0, 2, -3 ], "connection": "subway" }  ],
     "flags": [ "FANTASY", "WILDERNESS", "UNIQUE" ],
     "city_distance": [ 0, -1 ],
     "city_sizes": [ 0, -1 ],
@@ -3104,8 +3104,8 @@
       { "point": [ -7, -21, -5 ], "overmap": "walled_in_underground_building_north" }
     ],
     "locations": [ "land", "forest", "wilderness", "swamp", "field" ],  
-    "connections": [ { "point": [ 0, 1, 0 ], "terrain": "road" },
-                     { "point": [ 0, -26, -5 ], "terrain": "road" }  ],
+    "connections": [ { "point": [ 0, 1, 0 ], "connection": "road" },
+                     { "point": [ 0, -26, -5 ], "connection": "road" }  ],
     "flags": [ "FANTASY", "WILDERNESS" ],
     "city_distance": [ 11, 12 ],
     "city_sizes": [ 2, 20 ],
@@ -3181,7 +3181,7 @@
       { "point": [ -3, -10, -4 ], "overmap": "straight_rock_underground_road_north" }
     ],
     "locations": [ "land", "forest", "wilderness", "swamp", "field" ],  
-    "connections": [ { "point": [ 0, 1, -5 ], "terrain": "road" } ],
+    "connections": [ { "point": [ 0, 1, -5 ], "connection": "road" } ],
     "flags": [ "FANTASY", "WILDERNESS" ],
     "city_distance": [ 11, 12 ],
     "city_sizes": [ 2, 20 ],
@@ -3210,7 +3210,7 @@
           { "point": [ 0, 0, 1 ], "overmap": "roadside_waystation_roof_north" }
     ],
     "locations": [ "land", "forest", "wilderness", "swamp", "field" ],
-    "connections": [ { "point": [ 0, 1, 0 ], "terrain": "road" } ],
+    "connections": [ { "point": [ 0, 1, 0 ], "connection": "road" } ],
     "flags": [ "FANTASY", "CLASSIC", "WILDERNESS" ],
     "city_distance": [ 3, 9 ],
     "city_sizes": [ 1, -1 ],
@@ -3224,7 +3224,7 @@
           { "point": [ 0, 0, 1 ], "overmap": "guildhall_roof_north" }
     ],
     "locations": [ "land", "forest", "wilderness", "swamp", "field" ],
-    "connections": [ { "point": [ 0, 1, 0 ], "terrain": "road" } ],
+    "connections": [ { "point": [ 0, 1, 0 ], "connection": "road" } ],
     "flags": [ "FANTASY", "CLASSIC", "WILDERNESS" ],
     "city_distance": [ 1, 4 ],
     "city_sizes": [ 1, -1 ],
@@ -3239,7 +3239,7 @@
           { "point": [ 0, 0, 2 ], "overmap": "watchtower_roof_north" }
     ],
     "locations": [ "land", "forest", "wilderness", "swamp", "field" ],
-    "connections": [ { "point": [ 0, 1, 0 ], "terrain": "road" } ],
+    "connections": [ { "point": [ 0, 1, 0 ], "connection": "road" } ],
     "flags": [ "FANTASY", "CLASSIC", "WILDERNESS" ],
     "city_distance": [ 1, 5 ],
     "city_sizes": [ 1, -1 ],

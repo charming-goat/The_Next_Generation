@@ -85,11 +85,7 @@
     "armor_acid": 15,
     "harvest": "exempt",
     "special_attacks": [ [ "FORMBLOB", 30 ] ],
-    "death_function": {
-      "message": "The %s splits in two!",
-      "corpse_type": "NO_CORPSE",
-      "effect": { "id": "death_blobsplit", "hit_self": true }
-    },
+    "death_function":  ["BLOBSPLIT"],
     "flags": [ "HEARS", "GOODHEARING", "NOHEAD", "POISON", "NO_BREATHE", "ACIDPROOF" ]
 	},
   {
@@ -122,11 +118,7 @@
     "armor_acid": 20,
     "harvest": "exempt",
     "special_attacks": [ [ "FORMBLOB", 20 ] ],
-    "death_function": {
-      "message": "The %s splits in two!",
-      "corpse_type": "NO_CORPSE",
-      "effect": { "id": "death_blobsplit_large", "hit_self": true }
-    },
+    "death_function":  ["BLOBSPLIT"],
     "flags": [ "HEARS", "GOODHEARING", "NOHEAD", "POISON", "NO_BREATHE", "ACIDPROOF" ]
   },
   {
@@ -156,7 +148,7 @@
     "armor_stab": 10,
     "armor_acid": 10,
     "harvest": "exempt",
-    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
+    "death_function": ["MELT"],
     "flags": [ "HEARS", "GOODHEARING", "NOHEAD", "POISON", "NO_BREATHE", "ACIDPROOF" ]
 	},
 	{

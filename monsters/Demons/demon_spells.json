@@ -1,0 +1,25 @@
+[
+	{
+    "type": "SPELL",
+    "id": "Hellbolt",
+    "name": "Hellbolt",
+    "description": "You hurl an orb of hellish fire at a target.",
+    "valid_targets": [ "hostile", "self", "ground", "ally" ],
+    "flags": [ "SOMATIC", "NO_LEGS" ],
+    "effect": "target_attack",
+    "damage_type": "fire",
+    "min_damage": 10,
+    "damage_increment": 2,
+    "max_damage": 30,
+    "min_range": 4,
+    "range_increment": 0.4,
+    "max_range": 8,
+    "base_energy_cost": 50,
+    "spell_class": "WARLOCK_F",
+    "skill": "occult",
+    "difficulty": 1,
+    "max_level": 10,
+    "base_casting_time": 100,
+    "energy_source": "MANA"
+  }
+]

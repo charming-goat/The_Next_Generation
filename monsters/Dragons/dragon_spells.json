@@ -1,0 +1,50 @@
+[
+ {
+    "type": "SPELL",
+    "id": "mon_mtc_dragon_fire_adult_target",
+    "name": "a spell",
+    "description": "Targets then casts the spells.",
+    "extra_effects": [
+      { "id": "mon_mtc_dragon_fire_adult_target_random" },
+      { "id": "mon_mtc_dragon_adult_stepback" },
+      { "id": "mon_mtc_dragon_adult_flight" },
+      { "id": "mon_mtc_dragon_fire_adult_smoke" }
+    ],
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "ally", "hostile", "ground" ],
+    "effect": "target_attack",
+    "min_range": 15
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_dragon_ice_adult_target",
+    "name": "a spell",
+    "description": "Targets then casts the spells.",
+    "extra_effects": [
+      { "id": "mon_mtc_dragon_ice_adult_target_random" },
+      { "id": "mon_mtc_dragon_adult_stepback" },
+      { "id": "mon_mtc_dragon_adult_flight" },
+      { "id": "mon_mtc_dragon_ice_adult_frigid", "hit_self": true }
+    ],
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "ally", "hostile", "ground" ],
+    "effect": "target_attack",
+    "min_range": 12
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_dragon_storm_adult_target",
+    "name": "a spell",
+    "description": "Targets then casts the spells.",
+    "extra_effects": [
+      { "id": "mon_mtc_dragon_storm_adult_target_random" },
+      { "id": "mon_mtc_dragon_adult_stepback" },
+      { "id": "mon_mtc_dragon_adult_flight" },
+      { "id": "mon_mtc_dragon_storm_adult_shock" }
+    ],
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "ally", "hostile", "ground" ],
+    "effect": "target_attack",
+    "min_range": 10
+  }
+]

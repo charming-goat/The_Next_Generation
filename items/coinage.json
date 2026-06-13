@@ -17,24 +17,19 @@
     "material": [ "leather" ],
     "symbol": "U",
     "color": "brown",
-        "armor": [ { "encumbrance": 0, "coverage": 5, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 5, 
+    "covers": [ "torso" ],
 	"material_thickness": 1,
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "rigid": false,
-		"watertight": true,
-        "max_contains_volume": "2000 ml",
-        "max_contains_weight": "20 kg",
-        "item_restriction": [
-          "copper_coin",
-		  "silver_coin",
-		  "gold_coin",
-		  "platinum_coin"
-        ]
-      }
-    ],
-	"flags": [ "WATER_FRIENDLY", "BELTED", "OVERSIZE" ]
+    "use_action": {
+      "type": "bandolier",
+      "capacity": 1000,
+      "ammo": [
+        "coin"
+      ],
+      "draw_cost": 35
+    },
+    "flags": [ "WAIST", "OVERSIZE", "WATER_FRIENDLY", "COMPACT" ]
 	},
 	{
 	"id": "copper_coin",

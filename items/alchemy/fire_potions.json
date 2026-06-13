@@ -18,8 +18,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 2500,
-    "freezing_point": 40
+    "price": 2500
   },
 {
     "id": "fire_protection",
@@ -56,8 +55,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 2500,
-    "freezing_point": 40
+    "price": 2500
   },
 {
     "id": "fire_breath",
@@ -148,8 +146,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 2500,
-    "freezing_point": 40
+    "price": 2500
   },
 {
     "id": "pain_reduction",
@@ -198,8 +195,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 2500,
-    "freezing_point": 40
+    "price": 2500
   },
 {
     "id": "battle_potion",
