@@ -13,17 +13,12 @@
     "symbol": "[",
     "looks_like": "backpack",
     "color": "green",
-    "armor": [ { "encumbrance": [ 20, 60 ], "coverage": 75, "covers": [ "torso", "leg_l", "leg_r" ] } ],
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "80 L",
-        "max_contains_weight": "40 kg",
-        "max_item_length": "96 cm",
-        "magazine_well": "8750 ml",
-        "moves": 300
-      }
-    ],
+    "encumbrance": [ 20, 60 ], 
+    "coverage": 75, 
+    "contains": "80 L",
+    "covers": [ "torso", "leg_l", "leg_r" ],
+    "seals": true,
+    "watertight": true,
     "warmth": 5,
     "material_thickness": 2,
     "flags": [ "BELTED" ]
