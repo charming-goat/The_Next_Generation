@@ -7,8 +7,6 @@
     "copy-from": "silver_necklace",
     "charges_per_use": 1,
     "flags": [ "TRADER_AVOID", "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
-    "use_action": { "type": "cast_spell", "spell_id": "silver_ivy_locket_effect", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 5 } } ]
+    "use_action": { "type": "cast_spell", "spell_id": "silver_ivy_locket_effect", "no_fail": true, "level": 1, "need_worn": true }
   }        
 ]

@@ -2,7 +2,7 @@
 {
     "id": "bigpack_mtc",
     "repairs_like": "bigback",
-    "type": "ARMOR",
+    "type": "CONTAINER",
     "name": { "str": "huge satchel" },
     "description": "A huge fabric backpack, made for the long-time wanderer or a alchemist with ingredients to haul. It can store a great deal of things.",
     "weight": "1200 g",
@@ -13,14 +13,9 @@
     "symbol": "[",
     "looks_like": "backpack",
     "color": "green",
-    "encumbrance": [ 20, 60 ], 
-    "coverage": 75, 
-    "contains": "80 L",
-    "covers": [ "torso", "leg_l", "leg_r" ],
     "seals": true,
     "watertight": true,
-    "warmth": 5,
-    "material_thickness": 2,
+    "armor_data": { "covers": [ "torso", "leg_l", "leg_r" ], "coverage": 75, "encumbrance": 20, "storage": "80 L", "material_thickness": 2, "warmth": 5 },
     "flags": [ "BELTED" ]
   }
 ]
