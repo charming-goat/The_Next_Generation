@@ -11,7 +11,7 @@
     "volume": "0 ml",
     "material": [ "superalloy" ],
     "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
-	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_HP", "multiply": 0.05 } ] } ] }
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "HP_CAP", "multiply": 0.05 } ] } ] }
   },
   {
     "id": "ench_tat_hp_2",
