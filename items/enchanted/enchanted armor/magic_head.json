@@ -14,10 +14,12 @@
     "material_thickness": 2,
     "environmental_protection": 2,
     "relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "multiply": 0.2 } ] } ]
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MANA_CAP", "multiply": 0.2 } ] } ]
     },
     "flags": [ "VARSIZE" ],
-    "armor": [ { "encumbrance": 12, "coverage": 50, "covers": [ "head" ] } ]
+    "encumbrance": 12, 
+    "coverage": 50, 
+    "covers": [ "head" ]
   },
 {
     "id": "hat_hp",
@@ -37,7 +39,9 @@
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_HP", "multiply": 0.2 } ] } ]
     },
     "flags": [ "VARSIZE" ],
-    "armor": [ { "encumbrance": 12, "coverage": 50, "covers": [ "head" ] } ]
+    "encumbrance": 12, 
+    "coverage": 50, 
+    "covers": [ "head" ]
   },
 {
     "id": "hat_stamina",
@@ -54,10 +58,12 @@
     "material_thickness": 2,
     "environmental_protection": 2,
     "relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "multiply": 0.2 } ] } ]
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STAMINA_CAP", "multiply": 0.2 } ] } ]
     },
     "flags": [ "VARSIZE" ],
-    "armor": [ { "encumbrance": 12, "coverage": 50, "covers": [ "head" ] } ]
+    "encumbrance": 12, 
+    "coverage": 50, 
+    "covers": [ "head" ]
   },
 {
     "id": "hat_speed",
@@ -77,7 +83,9 @@
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MOVE_COST", "add": -5 } ] } ]
     },
     "flags": [ "VARSIZE" ],
-    "armor": [ { "encumbrance": 12, "coverage": 50, "covers": [ "head" ] } ]
+    "encumbrance": 12, 
+    "coverage": 50, 
+    "covers": [ "head" ]
   },
 {
     "id": "hat_noshock",
@@ -97,7 +105,9 @@
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_ELEC", "add": -5 } ] } ]
     },
     "flags": [ "VARSIZE" ],
-    "armor": [ { "encumbrance": 12, "coverage": 50, "covers": [ "head" ] } ]
+    "encumbrance": 12, 
+    "coverage": 50, 
+    "covers": [ "head" ]
   },
 {
     "id": "hat_nochill",
@@ -117,7 +127,9 @@
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ]
     },
     "flags": [ "VARSIZE" ],
-    "armor": [ { "encumbrance": 12, "coverage": 50, "covers": [ "head" ] } ]
+    "encumbrance": 12, 
+    "coverage": 50, 
+    "covers": [ "head" ]
   },
 {
     "id": "hat_noburn",
@@ -137,7 +149,9 @@
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_HEAT", "add": -5 } ] } ]
     },
     "flags": [ "VARSIZE" ],
-    "armor": [ { "encumbrance": 12, "coverage": 50, "covers": [ "head" ] } ]
+    "encumbrance": 12, 
+    "coverage": 50, 
+    "covers": [ "head" ]
   },
 {
     "id": "breathing_bubble",
@@ -154,7 +168,8 @@
     "material_thickness": 1,
     "environmental_protection": 1,
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "GILLS" ] } ] },
-    "flags": [ "VARSIZE" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "head", "eyes" ] } ]
+    "encumbrance": 12, 
+    "coverage": 50, 
+    "covers": [ "head" ]
   }
 ]

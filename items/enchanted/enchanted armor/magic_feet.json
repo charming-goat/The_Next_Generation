@@ -7,29 +7,15 @@
     "looks_like": "boots_hiking",
     "price_postapoc": 45000,
     "description": "A well-fitting pair of leather boots, engraved with runes. Wearing them increases your mana stores.",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "multiply": 0.2 } ] } ] },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MANA_CAP", "multiply": 0.2 } ] } ] },
     "warmth": 30,
     "material_thickness": 3,
     "environmental_protection": 3,
     "flags": [ "WATERPROOF", "STURDY" ],
     "material": [ "leather" ],
-    "armor": [ { "encumbrance": 8, "coverage": 95, "covers": [ "foot_l", "foot_r" ] } ]
-  }, 
-{
-    "id": "boots_hp",
-    "type": "ARMOR",
-    "copy-from": "boots_hiking",
-    "name": { "str": "boots of the body", "str_pl": "pairs of boots of the body" },
-    "looks_like": "boots_hiking",
-    "price_postapoc": 45000,
-    "description": "A well-fitting pair of leather boots, engraved with runes. Wearing them increases your general resilience.",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_HP", "multiply": 0.2 } ] } ] },
-    "warmth": 30,
-    "material_thickness": 3,
-    "environmental_protection": 3,
-    "flags": [ "WATERPROOF", "STURDY" ],
-    "material": [ "leather" ],
-    "armor": [ { "encumbrance": 8, "coverage": 95, "covers": [ "foot_l", "foot_r" ] } ]
+    "encumbrance": 8, 
+    "coverage": 95, 
+    "covers": [ "foot_l", "foot_r" ],
   }, 
 {
     "id": "boots_stamina",
@@ -39,13 +25,15 @@
     "looks_like": "boots_hiking",
     "price_postapoc": 45000,
     "description": "A well-fitting pair of leather boots, engraved with runes. Wearing them increases your stamina.",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "multiply": 0.2 } ] } ] },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STAMINA_CAP", "multiply": 0.2 } ] } ] },
     "warmth": 30,
     "material_thickness": 3,
     "environmental_protection": 3,
     "flags": [ "WATERPROOF", "STURDY" ],
     "material": [ "leather" ],
-    "armor": [ { "encumbrance": 8, "coverage": 95, "covers": [ "foot_l", "foot_r" ] } ]
+    "encumbrance": 8, 
+    "coverage": 95, 
+    "covers": [ "foot_l", "foot_r" ],
   },
 {
     "id": "boots_speed",
@@ -61,7 +49,9 @@
     "environmental_protection": 3,
     "flags": [ "WATERPROOF", "STURDY" ],
     "material": [ "leather" ],
-    "armor": [ { "encumbrance": 8, "coverage": 95, "covers": [ "foot_l", "foot_r" ] } ]
+    "encumbrance": 8,
+    "coverage": 95, 
+    "covers": [ "foot_l", "foot_r" ],
   },  
 {
     "id": "boots_acrobatics",
@@ -77,7 +67,9 @@
     "environmental_protection": 3,
     "flags": [ "WATERPROOF", "STURDY" ],
     "material": [ "leather" ],
-    "armor": [ { "encumbrance": 8, "coverage": 95, "covers": [ "foot_l", "foot_r" ] } ]
+    "encumbrance": 8, 
+    "coverage": 95, 
+    "covers": [ "foot_l", "foot_r" ]
   },  
 {
     "id": "boots_jester",
@@ -93,7 +85,9 @@
     "environmental_protection": 3,
     "flags": [ "WATERPROOF", "STURDY" ],
     "material": [ "leather" ],
-    "armor": [ { "encumbrance": 8, "coverage": 95, "covers": [ "foot_l", "foot_r" ] } ]
+    "encumbrance": 8, 
+    "coverage": 95, 
+    "covers": [ "foot_l", "foot_r" ]
   },  
 {
     "id": "boots_crime",
@@ -109,6 +103,8 @@
     "environmental_protection": 3,
     "flags": [ "WATERPROOF", "STURDY" ],
     "material": [ "leather" ],
-    "armor": [ { "encumbrance": 8, "coverage": 95, "covers": [ "foot_l", "foot_r" ] } ]
+    "encumbrance": 8, 
+    "coverage": 95, 
+    "covers": [ "foot_l", "foot_r" ]
   }  
 ]

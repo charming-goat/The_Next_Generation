@@ -11,7 +11,9 @@
     "volume": "0 ml",
     "material": [ "superalloy" ],
     "warmth": 0,
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MANA_CAP", "multiply": 0.05 } ] } ] }
   },
   {
@@ -26,7 +28,9 @@
     "volume": "0 ml",
     "material": [ "superalloy" ],
     "warmth": 0,
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MANA_CAP", "multiply": 0.10 } ] } ] }
   },
   {
@@ -41,7 +45,9 @@
     "volume": "0 ml",
     "material": [ "superalloy" ],
     "warmth": 0,
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MANA_CAP", "multiply": 0.15 } ] } ] }
   },
   {
@@ -56,8 +62,10 @@
     "volume": "0 ml",
     "material": [ "superalloy" ],
     "warmth": 0,
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
-	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "multiply": 0.05 } ] } ] }
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STAMINA_CAP", "multiply": 0.05 } ] } ] }
   },
   {
     "id": "ench_tat_stamina_2",
@@ -71,8 +79,10 @@
     "volume": "0 ml",
     "material": [ "superalloy" ],
     "warmth": 0,
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
-	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "multiply": 0.10 } ] } ] }
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STAMINA_CAP", "multiply": 0.10 } ] } ] }
   },
   {
     "id": "ench_tat_stamina_3",
@@ -85,8 +95,10 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
-	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "multiply": 0.15 } ] } ] }
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STAMINA_CAP", "multiply": 0.15 } ] } ] }
   },
   {
     "id": "ench_tat_speed_1",
@@ -99,7 +111,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MOVE_COST", "add": -10 } ] } ] }
   },
   {
@@ -113,7 +127,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MOVE_COST", "add": -20 } ] } ] }
   },
   {
@@ -127,7 +143,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MOVE_COST", "add": -30 } ] } ] }
   },
   {
@@ -141,7 +159,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "STR1" ] } ] }
   },
   {
@@ -155,7 +175,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "STR2" ] } ] }
   },
   {
@@ -169,7 +191,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "STR3" ] } ] }
   },
   {
@@ -183,7 +207,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "INT1" ] } ] }
   },
   {
@@ -197,7 +223,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "INT2" ] } ] }
   },
   {
@@ -211,7 +239,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "INT3" ] } ] }
   },
   {
@@ -225,7 +255,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "DEX1" ] } ] }
   },
   {
@@ -239,7 +271,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "DEX2" ] } ] }
   },
   {
@@ -253,7 +287,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "DEX3" ] } ] }
   },
   {
@@ -267,7 +303,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PER1" ] } ] }
   },
   {
@@ -281,7 +319,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PER2" ] } ] }
   },
   {
@@ -295,7 +335,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PER3" ] } ] }
   },
   {
@@ -309,7 +351,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "INTIMIDATE" ] } ] }
   },
   {
@@ -323,7 +367,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PERSUASION" ] } ] }
   },
   {
@@ -337,76 +383,10 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "LIE" ] } ] }
-  },
-  {
-    "id": "ench_tat_smite",
-    "type": "TOOL_ARMOR",
-    "category": "clothing",
-    "symbol": "3",
-    "name": { "str": "holy rune of Smite" },
-    "description": "A tattoo inked into your skin. The magical ink used responds to the geometry it is put into, and actually enchants the inked's body with an aspect. This is the divine rune of Smite, and shall regenerate a charge every hour.",
-    "flags": [ "ONLY_ONE", "NO_TAKEOFF", "TRADER_AVOID", "UNBREAKABLE_MELEE", "ZERO_WEIGHT", "NO_UNLOAD", "NO_RELOAD" ],
-    "weight": "0 g",
-    "volume": "0 ml",
-    "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "hand_l", "hand_r" ] } ],
-        "charges_per_use": 1,
-        "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": true, "level": 3, "need_worn": true },
-	"relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
-        "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 3 }, "rigid": true } ]
-  },
-  {
-    "id": "ench_tat_lres",
-    "type": "TOOL_ARMOR",
-    "category": "clothing",
-    "symbol": "3",
-    "name": { "str": "holy rune of Lesser Restoration" },
-    "description": "A tattoo inked into your skin. The magical ink used responds to the geometry it is put into, and actually enchants the inked's body with an aspect. This is the divine rune of Lesser Restoration, and shall regenerate a charge every three hours.",
-    "flags": [ "ONLY_ONE", "NO_TAKEOFF", "TRADER_AVOID", "UNBREAKABLE_MELEE", "ZERO_WEIGHT", "NO_UNLOAD", "NO_RELOAD" ],
-    "weight": "0 g",
-    "volume": "0 ml",
-    "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "hand_l", "hand_r" ] } ],
-        "charges_per_use": 5,
-        "use_action": { "type": "cast_spell", "spell_id": "healing", "no_fail": true, "level": 1, "need_worn": true },
-	"relic_data": { "charge_info": { "recharge_type": "periodic", "time": "3 h", "regenerate_ammo": true } },
-        "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ]
-  },
-  {
-    "id": "ench_tat_flame",
-    "type": "TOOL_ARMOR",
-    "category": "clothing",
-    "symbol": "3",
-    "name": { "str": "holy rune of Sacred Flame" },
-    "description": "A tattoo inked into your skin. The magical ink used responds to the geometry it is put into, and actually enchants the inked's body with an aspect. This is the divine rune of Sacred Flame, and shall regenerate a charge every fifteen minutes.",
-    "flags": [ "ONLY_ONE", "NO_TAKEOFF", "TRADER_AVOID", "UNBREAKABLE_MELEE", "ZERO_WEIGHT", "NO_UNLOAD", "NO_RELOAD" ],
-    "weight": "0 g",
-    "volume": "0 ml",
-    "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "hand_l", "hand_r" ] } ],
-        "charges_per_use": 1,
-        "use_action": { "type": "cast_spell", "spell_id": "sacred_flame", "no_fail": true, "level": 5, "need_worn": true },
-	"relic_data": { "charge_info": { "recharge_type": "periodic", "time": "15 m", "regenerate_ammo": true } },
-        "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 10 }, "rigid": true } ]
-  },
-  {
-    "id": "ench_tat_flamestrike",
-    "type": "TOOL_ARMOR",
-    "category": "clothing",
-    "symbol": "3",
-    "name": { "str": "rune of combustion" },
-    "description": "A tattoo inked into your skin. The magical ink used responds to the geometry it is put into, and actually enchants the inked's body with an aspect. This is the rune of Fireball, and shall regenerate a charge every hour.",
-    "flags": [ "ONLY_ONE", "NO_TAKEOFF", "TRADER_AVOID", "UNBREAKABLE_MELEE", "ZERO_WEIGHT", "NO_UNLOAD", "NO_RELOAD" ],
-    "weight": "0 g",
-    "volume": "0 ml",
-    "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "hand_l", "hand_r" ] } ],
-        "charges_per_use": 1,
-        "use_action": { "type": "cast_spell", "spell_id": "mu_c_spell_flamestrike", "no_fail": true, "level": 1, "need_worn": true },
-	"relic_data": { "charge_info": { "recharge_type": "periodic", "time": "3 h", "regenerate_ammo": true } },
-        "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 3 }, "rigid": true } ]
   },
   {
     "id": "ench_tat_protect_1",
@@ -419,7 +399,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_CUT", "add": -2 }, { "value": "ARMOR_BASH", "add": -2 }, { "value": "ARMOR_STAB", "add": -2 } ] } ] }  
   },
   {
@@ -433,7 +415,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_CUT", "add": -4 }, { "value": "ARMOR_BASH", "add": -4 }, { "value": "ARMOR_STAB", "add": -4 } ] } ] }
   },
   {
@@ -447,7 +431,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_CUT", "add": -6 }, { "value": "ARMOR_BASH", "add": -6 }, { "value": "ARMOR_STAB", "add": -6 } ] } ] }
   },
   {
@@ -461,7 +447,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 1 } ] } ] }
   },
   {
@@ -475,7 +463,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 2 } ] } ] }
   },
   {
@@ -489,7 +479,9 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "encumbrance": 0, 
+    "coverage": 0, 
+    "covers": [ "torso" ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 3 } ] } ] }
   }
 ]

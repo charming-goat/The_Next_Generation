@@ -13,9 +13,11 @@
     "material": [ "cotton" ],
     "flags": [ "OUTER", "OVERSIZE", "NONCONDUCTIVE" ],
     "relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "multiply": 0.4 } ] } ]
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MANA_CAP", "multiply": 0.4 } ] } ]
     },
-    "armor": [ { "encumbrance": 10, "coverage": 75, "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ] } ]
+    "encumbrance": 10, 
+    "coverage": 75, 
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
   },
 {
     "id": "cloak_hp",
@@ -33,7 +35,9 @@
     "relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_HP", "multiply": 0.4 } ] } ]
     },
-    "armor": [ { "encumbrance": 10, "coverage": 75, "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ] } ]
+    "encumbrance": 10, 
+    "coverage": 75, 
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
   },
 {
     "id": "cloak_stamina",
@@ -51,7 +55,9 @@
     "relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "multiply": 0.4 } ] } ]
     },
-    "armor": [ { "encumbrance": 10, "coverage": 75, "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ] } ]
+    "encumbrance": 10, 
+    "coverage": 75, 
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
   },   
 {
     "id": "cloak_invisibility",
@@ -69,8 +75,9 @@
     "charges_per_use": 1,
     "use_action": { "type": "cast_spell", "spell_id": "invisible_item", "no_fail": true, "level": 1, "need_worn": true },
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 3 }, "rigid": true } ],
-    "armor": [ { "encumbrance": 10, "coverage": 75, "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ] } ]
+    "encumbrance": 10, 
+    "coverage": 75, 
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
   }, 
 {
     "id": "cloak_dodge",
@@ -88,7 +95,9 @@
     "relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 2 } ] } ]
     },
-    "armor": [ { "encumbrance": 10, "coverage": 75, "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ] } ]
+    "encumbrance": 10, 
+    "coverage": 75, 
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
   },
 {
     "id": "cloak_armor",
@@ -106,7 +115,9 @@
     "relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_CUT", "add": -2 }, { "value": "ARMOR_BASH", "add": -2 }, { "value": "ARMOR_STAB", "add": -2 } ] } ]
     },
-    "armor": [ { "encumbrance": 10, "coverage": 75, "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ] } ]
+    "encumbrance": 10, 
+    "coverage": 75, 
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
   },    
 {
     "id": "cloak_noshock",
@@ -124,7 +135,9 @@
     "relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_ELEC", "add": -5 } ] } ]
     },
-    "armor": [ { "encumbrance": 10, "coverage": 75, "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ] } ]
+    "encumbrance": 10, 
+    "coverage": 75, 
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
   },        
 {
     "id": "cloak_nochill",
@@ -142,7 +155,9 @@
     "relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ]
     },
-    "armor": [ { "encumbrance": 10, "coverage": 75, "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ] } ]
+    "encumbrance": 10, 
+    "coverage": 75, 
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
   },    
    
 {
@@ -161,6 +176,8 @@
     "relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_HEAT", "add": -5 } ] } ]
     },
-    "armor": [ { "encumbrance": 10, "coverage": 75, "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ] } ]
+    "encumbrance": 10, 
+    "coverage": 75, 
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
   }           
 ]

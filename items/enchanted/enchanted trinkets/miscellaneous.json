@@ -27,7 +27,6 @@
     "symbol": ",",
     "color": "white",
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "candle_wax": 100 }, "rigid": true } ],
     "use_action": [ {
       "target": "candle_lit",
       "msg": "You light the candle.",
@@ -52,7 +51,6 @@
     "symbol": ",",
     "color": "white",
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "candle_wax": 100 }, "rigid": true } ],
     "use_action": [ {
       "target": "candle_lit",
       "msg": "You light the candle.",
@@ -79,7 +77,6 @@
     "symbol": "o",
     "color": "white",
     "charges_per_use": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 15 }, "rigid": true } ],
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } }
   },
 {
@@ -123,7 +120,6 @@
     "charges_per_use": 1,
     "description": "This is a small metal chalice, decorated with depictions of the ocean. It holds a misty, water-like liquid in it, which occaisionally rises in the form of gas.",
     "use_action": [ { "type": "cast_spell", "spell_id": "spawn_water_elementals", "no_fail": true, "level": 1, "need_wielding": true } ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 3 }, "rigid": true } ],
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
     "flags": [ "MAGIC_FOCUS", "NO_RELOAD", "NO_UNLOAD" ]
   },
@@ -137,7 +133,6 @@
     "charges_per_use": 1,
     "description": "This is a small metal chalice, decorated with depictions of fire. A small flame burns within.",
     "use_action": [ { "type": "cast_spell", "spell_id": "spawn_fire_elementals", "no_fail": true, "level": 1, "need_wielding": true } ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 3 }, "rigid": true } ],
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
     "flags": [ "MAGIC_FOCUS", "NO_RELOAD", "NO_UNLOAD" ]
   },
@@ -151,7 +146,6 @@
     "charges_per_use": 1,
     "description": "This is a small clay chalice, with frescoes of landscapes coating it. Three pebbles sit inside, rolling with it's movement in set channels.",
     "use_action": [ { "type": "cast_spell", "spell_id": "spawn_earth_elementals", "no_fail": true, "level": 1, "need_wielding": true } ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 3 }, "rigid": true } ],
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
     "flags": [ "MAGIC_FOCUS", "NO_RELOAD", "NO_UNLOAD" ]
   },
@@ -165,7 +159,6 @@
     "charges_per_use": 1,
     "description": "This is a small clay chalice, with frescoes of the sky coating it. The interior is empty.",
     "use_action": [ { "type": "cast_spell", "spell_id": "spawn_air_elementals", "no_fail": true, "level": 1, "need_wielding": true } ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 3 }, "rigid": true } ],
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
     "flags": [ "MAGIC_FOCUS", "NO_RELOAD", "NO_UNLOAD" ]
   },
@@ -184,15 +177,6 @@
     "flags": [ "TARDIS" ],
     "symbol": ")",
     "color": "brown",
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "rigid": true,
-        "watertight": true,
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "70 kg"
-      }
-    ],
     "qualities": [ [ "BOIL", 2 ], [ "CONTAIN", 1 ] ]
   },
 {
@@ -211,7 +195,6 @@
     "color": "blue",
     "charges_per_use": 1,
     "use_action": [ { "type": "cast_spell", "spell_id": "water_summon", "no_fail": true, "level": 6, "need_wielding": true } ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 6 }, "rigid": true } ],
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "12 h", "regenerate_ammo": true } }
   },
 {
@@ -230,7 +213,6 @@
     "color": "light_gray",
     "charges_per_use": 1,
     "use_action": [ { "type": "cast_spell", "spell_id": "smokescreen", "no_fail": true, "level": 1, "need_wielding": true } ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 6 }, "rigid": true } ],
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "12 h", "regenerate_ammo": true } }
   },
 {

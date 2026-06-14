@@ -7,7 +7,7 @@
     "copy-from": "silver_necklace",
     "price_postapoc": 2000,
     "flags": [ "ONLY_ONE" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "multiply": 0.1 } ] } ] }
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MANA_CAP", "multiply": 0.1 } ] } ] }
   },      
 {
     "type": "TOOL_ARMOR",
@@ -27,7 +27,7 @@
     "copy-from": "silver_necklace",
     "price_postapoc": 2000,
     "flags": [ "ONLY_ONE" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "multiply": 0.1 } ] } ] }
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STAMINA_CAP", "multiply": 0.1 } ] } ] }
   },        
 {
     "type": "TOOL_ARMOR",
@@ -50,7 +50,6 @@
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
     "use_action": { "type": "cast_spell", "spell_id": "blade_spawn_item", "no_fail": true, "level": 1, "need_worn": true },
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 3 } } ]
   },
 {
     "type": "TOOL_ARMOR",
@@ -60,19 +59,6 @@
     "copy-from": "silver_necklace",
     "price_postapoc": 6000,
     "flags": [ "ONLY_ONE", "TARDIS" ],
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "moves": 100,
-        "max_contains_volume": "1 L",
-        "max_contains_weight": "5 kg",
-        "max_item_volume": "1 L",
-        "max_item_length": "1 meter",
-        "spoil_multiplier": 1.5,
-        "weight_multiplier": 0.7,
-        "volume_multiplier": 0.7,
-        "rigid": true
-      }
-    ]
+    "storage": "15 L",
   }                
 ]
