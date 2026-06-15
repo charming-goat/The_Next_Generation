@@ -209,7 +209,7 @@
             { "value": "PERCEPTION", "add": 3 }
           ],
           "mutations": [
-            "ARM_TENTACLES_8",
+            "ARM_TENTACLES_MAX",
             "MOUTH_TENTACLES",
             "MORE_PAIN",
             "HORNS_CURLED",

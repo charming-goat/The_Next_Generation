@@ -22,8 +22,7 @@
     "purifiable": false,
     "valid": false,
     "prereqs": [ "WARLOCK" ],
-    "cancels": [ "WARLOCK_C", "WARLOCK_F" ],
-    "flags": [ "ATTUNEMENT" ]
+    "cancels": [ "WARLOCK_C", "WARLOCK_F" ]
   },
   {
     "type": "mutation",
@@ -36,8 +35,7 @@
     "purifiable": false,
     "valid": false,
     "prereqs": [ "WARLOCK" ],
-    "cancels": [ "WARLOCK_E", "WARLOCK_F" ],
-    "flags": [ "ATTUNEMENT" ]
+    "cancels": [ "WARLOCK_E", "WARLOCK_F" ]
   },
   {
     "type": "mutation",
@@ -50,7 +48,6 @@
     "purifiable": false,
     "valid": false,
     "prereqs": [ "WARLOCK" ],
-    "cancels": [ "WARLOCK_E", "WARLOCK_C" ],
-    "flags": [ "ATTUNEMENT" ]
+    "cancels": [ "WARLOCK_E", "WARLOCK_C" ]
   }
 ]

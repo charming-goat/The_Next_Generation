@@ -447,7 +447,7 @@
     "name": { "str": "far realm shard", "str_pl": "far realm shards" },
     "relic_data": {
       "passive_effects": [
-        { "has": "WORN", "condition": "ALWAYS", "mutations": [ "ARM_TENTACLES_8", "SHOUT2", "POISRESIST", "FEATHERS", "ENLARGE", "LEG_TENTACLES" ] }
+        { "has": "WORN", "condition": "ALWAYS", "mutations": [ "ARM_TENTACLES_MAX", "SHOUT2", "POISRESIST", "FEATHERS", "ENLARGE", "LEG_TENTACLES" ] }
       ]
     },
 	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE", "NO_TAKEOFF", "ONLY_ONE" ]

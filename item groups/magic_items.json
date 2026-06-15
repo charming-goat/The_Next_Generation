@@ -1457,7 +1457,6 @@
     "subtype": "distribution",
     "items": [
       { "item": "hat_arcane", "prob": 35 },
-      { "item": "hat_hp", "prob": 35 },
       { "item": "hat_stamina", "prob": 35 },
       { "item": "hat_speed", "prob": 35 },
       { "item": "hat_noshock", "prob": 35 },
@@ -1472,7 +1471,6 @@
     "subtype": "distribution",
     "items": [
       { "item": "cloak_arcane", "prob": 35 },
-      { "item": "cloak_hp", "prob": 35 },
       { "item": "cloak_stamina", "prob": 35 },
       { "item": "cloak_invisibility", "prob": 35, "charges": [ 0, 3 ] },
       { "item": "cloak_dodge", "prob": 35 },
@@ -1490,7 +1488,6 @@
     "subtype": "distribution",
     "items": [
       { "item": "boots_arcane", "prob": 35 },
-      { "item": "boots_hp", "prob": 35 },
       { "item": "boots_stamina", "prob": 35 },
       { "item": "boots_speed", "prob": 35 },
       { "item": "boots_acrobatics", "prob": 35 },
@@ -1504,7 +1501,6 @@
     "subtype": "distribution",
     "items": [
       { "item": "necklace_arcane", "prob": 35 },
-      { "item": "necklace_hp", "prob": 35 },
       { "item": "necklace_stamina", "prob": 35 },
       { "item": "necklace_per", "prob": 35 },
       { "item": "necklace_knife", "prob": 35 },
@@ -1517,7 +1513,6 @@
     "subtype": "distribution",
     "items": [
       { "item": "ring_arcane", "prob": 35 },
-      { "item": "ring_hp", "prob": 35 },
       { "item": "ring_stamina", "prob": 35 },
       { "item": "ring_noshock", "prob": 35 },
       { "item": "ring_noburn", "prob": 35 },
@@ -1533,7 +1528,6 @@
       { "item": "candle_eternal", "prob": 65 },
       { "item": "candle_fire", "prob": 65, "charges": [ 25, 100 ] },
       { "item": "candle_teleport", "prob": 35, "charges": [ 25, 100 ] },
-      { "item": "orb_cleaning", "prob": 65, "charges": [ 0, 15 ] },
       { "item": "orb_shielding", "prob": 45 },
       { "item": "orb_time", "prob": 45 },
       { "item": "jug_holding", "prob": 35 },

@@ -51,7 +51,7 @@
         { "id": "your_followers", "x": [ 0, 8 ], "y": [ 0, 8 ] }
       ],
       "place_vehicles": [
-        { "vehicle": "skiff", "x": 4, "y": 4, "chance": 100, "rotation": 270, "status": 0 }
+        { "vehicle": "canoe", "x": 4, "y": 4, "chance": 100, "rotation": 270, "status": 0 }
       ]
     }
   },

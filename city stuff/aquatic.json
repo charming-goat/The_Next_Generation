@@ -124,7 +124,7 @@
           "U": [ { "item": "stash_wood", "chance": 70, "repeat": [ 2, 5 ] }, { "item": "tools_general", "chance": 70, "repeat": [ 1, 2 ] } ]
     },
     "place_vehicles": [
-        { "vehicle": "skiff", "x": 15, "y": 5, "chance": 70, "rotation": 270, "status": 1 }
+        { "vehicle": "canoe", "x": 15, "y": 5, "chance": 70, "rotation": 270, "status": 1 }
       ]
     }
   }

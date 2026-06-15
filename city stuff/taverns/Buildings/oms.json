@@ -43,7 +43,7 @@
       { "overmap": "mtc_seaside_down_downright_inn1_north", "point": [ 1, 1, -1 ] }
     ],
 	"connections": [
-      { "point": [ -1, 0, 0 ], "connection": "road", "from": [ 0, 0, 0 ] }
+      { "point": [ -1, 0, 0 ], "connection": "local_road", "from": [ 0, 0, 0 ] }
     ],
     "type": "overmap_special",
 	"flags": [ "WILDERNESS", "RIVER" ]
