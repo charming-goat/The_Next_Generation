@@ -19,12 +19,6 @@
   },
   {
     "type": "mutation",
-    "id": "ARM_TENTACLES_8",
-    "copy-from": "ARM_TENTACLES_8",
-    "extend": { "category": [ "BLOOD" ] }
-  },
-{
-    "type": "mutation",
     "id": "SHOUT1",
     "copy-from": "SHOUT1",
     "extend": { "category": [ "BLOOD" ] }
@@ -212,7 +206,7 @@
 {
     "type": "mutation",
     "id": "BARKSKIN",
-    "copy-from": "BARKSKIN",
+    "copy-from": "SUBDERMALARMOR",
     "extend": { "category": [ "BLOOD" ] }
   }
 ]

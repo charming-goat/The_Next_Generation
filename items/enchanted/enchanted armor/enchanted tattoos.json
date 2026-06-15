@@ -162,7 +162,7 @@
     "encumbrance": 0, 
     "coverage": 0, 
     "covers": [ "torso" ],
-	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "STR1" ] } ] }
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 1 } ] } ] }
   },
   {
     "id": "ench_tat_str_2",
@@ -178,7 +178,7 @@
     "encumbrance": 0, 
     "coverage": 0, 
     "covers": [ "torso" ],
-	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "STR2" ] } ] }
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 2 } ] } ] }
   },
   {
     "id": "ench_tat_str_3",
@@ -194,7 +194,7 @@
     "encumbrance": 0, 
     "coverage": 0, 
     "covers": [ "torso" ],
-	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "STR3" ] } ] }
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 1 } ] } ] }
   },
   {
     "id": "ench_tat_int_1",
@@ -210,7 +210,7 @@
     "encumbrance": 0, 
     "coverage": 0, 
     "covers": [ "torso" ],
-	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "INT1" ] } ] }
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 1 } ] } ] }
   },
   {
     "id": "ench_tat_int_2",
@@ -226,7 +226,7 @@
     "encumbrance": 0, 
     "coverage": 0, 
     "covers": [ "torso" ],
-	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "INT2" ] } ] }
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 2 } ] } ] }
   },
   {
     "id": "ench_tat_int_3",
@@ -242,7 +242,7 @@
     "encumbrance": 0, 
     "coverage": 0, 
     "covers": [ "torso" ],
-	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "INT3" ] } ] }
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 3 } ] } ] }
   },
   {
     "id": "ench_tat_dex_1",
@@ -258,7 +258,7 @@
     "encumbrance": 0, 
     "coverage": 0, 
     "covers": [ "torso" ],
-	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "DEX1" ] } ] }
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 1 } ] } ] }
   },
   {
     "id": "ench_tat_dex_2",
@@ -274,7 +274,7 @@
     "encumbrance": 0, 
     "coverage": 0, 
     "covers": [ "torso" ],
-	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "DEX2" ] } ] }
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 2 } ] } ] }
   },
   {
     "id": "ench_tat_dex_3",
@@ -290,7 +290,7 @@
     "encumbrance": 0, 
     "coverage": 0, 
     "covers": [ "torso" ],
-	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "DEX3" ] } ] }
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 3 } ] } ] }
   },
   {
     "id": "ench_tat_per_1",
@@ -306,7 +306,7 @@
     "encumbrance": 0, 
     "coverage": 0, 
     "covers": [ "torso" ],
-	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PER1" ] } ] }
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 1 } ] } ] }
   },
   {
     "id": "ench_tat_per_2",
@@ -322,7 +322,7 @@
     "encumbrance": 0, 
     "coverage": 0, 
     "covers": [ "torso" ],
-	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PER2" ] } ] }
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 2 } ] } ] }
   },
   {
     "id": "ench_tat_per_3",
@@ -338,7 +338,7 @@
     "encumbrance": 0, 
     "coverage": 0, 
     "covers": [ "torso" ],
-	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PER3" ] } ] }
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 3 } ] } ] }
   },
   {
     "id": "ench_tat_intimidate",

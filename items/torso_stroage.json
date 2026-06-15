@@ -13,8 +13,7 @@
     "symbol": "[",
     "looks_like": "backpack",
     "color": "green",
-    "seals": true,
-    "watertight": true,
+    "container_data": { "contains": "10 L", "seals": true, "watertight": true },
     "armor_data": { "covers": [ "torso", "leg_l", "leg_r" ], "coverage": 75, "encumbrance": 20, "storage": "80 L", "material_thickness": 2, "warmth": 5 },
     "flags": [ "BELTED" ]
   }

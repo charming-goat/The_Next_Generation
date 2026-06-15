@@ -27,7 +27,7 @@
     "copy-from": "silver_necklace",
     "price_postapoc": 2000,
     "flags": [ "ONLY_ONE" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PER1" ] } ] }
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 1 } ] } ] }
   },
 {
     "type": "TOOL_ARMOR",
