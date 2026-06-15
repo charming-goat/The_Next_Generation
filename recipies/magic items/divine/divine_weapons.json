@@ -11,10 +11,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "longsword", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_wood_sword",
@@ -28,10 +25,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "sword_wood", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_makeshift_knife",
@@ -45,10 +39,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "makeshift_knife", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_knife_baselard",
@@ -62,10 +53,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "knife_baselard", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_machete",
@@ -79,10 +67,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "machete", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_cavalry_sabre",
@@ -96,10 +81,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "cavalry_sabre", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_kris",
@@ -113,10 +95,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "kris", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_kukri",
@@ -130,10 +109,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "kukri", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_jian",
@@ -147,10 +123,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "jian", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_scimitar",
@@ -164,10 +137,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "scimitar", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_estoc",
@@ -181,10 +151,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "estoc", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_arming_sword",
@@ -198,10 +165,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "arming_sword", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_tanto",
@@ -215,10 +179,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "tanto", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_wakizashi",
@@ -232,10 +193,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "wakizashi", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_zweihander",
@@ -249,10 +207,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "zweihander", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_nodachi",
@@ -266,10 +221,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "nodachi", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_broadsword",
@@ -283,10 +235,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "broadsword", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_rapier",
@@ -300,10 +249,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "rapier", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_katana",
@@ -317,10 +263,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "katana", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_butterfly_swords",
@@ -334,10 +277,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "butterfly_swords", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_cutlass",
@@ -351,10 +291,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "cutlass", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_lajatang",
@@ -368,10 +305,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "lajatang", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_war_flail",
@@ -385,10 +319,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "2h_flail_steel", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_peasant_flail",
@@ -402,10 +333,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "2h_flail_wood", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_battleaxe",
@@ -419,10 +347,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "battleaxe", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_bokken",
@@ -436,10 +361,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "bokken", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_cudgel",
@@ -453,10 +375,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "cudgel", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_hammer_sledge",
@@ -470,10 +389,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "hammer_sledge", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_lucern_hammer",
@@ -487,10 +403,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "lucern_hammer", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_mace",
@@ -504,10 +417,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "mace", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_morningstar",
@@ -521,10 +431,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "morningstar", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_q_staff",
@@ -538,10 +445,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "q_staff", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_shillelagh",
@@ -555,10 +459,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "shillelagh", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_tonfa_wood",
@@ -572,10 +473,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "tonfa_wood", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_warhammer",
@@ -589,10 +487,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "warhammer", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_pitchfork",
@@ -606,10 +501,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "pitchfork", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_spear_steel",
@@ -623,10 +515,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "spear_steel", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_qiang",
@@ -640,10 +529,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "qiang", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_halberd",
@@ -657,10 +543,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "halberd", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_glaive",
@@ -674,10 +557,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "glaive", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_naginata",
@@ -691,10 +571,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "naginata", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_pike",
@@ -708,10 +585,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "pike", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_bagh_nakha",
@@ -725,10 +599,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "bagh_nakha", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_cestus",
@@ -742,10 +613,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "cestus", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_knuckle_brass",
@@ -759,10 +627,7 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "knuckle_brass", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }, 
 { 
     "result": "divine_punch_dagger",
@@ -776,9 +641,6 @@
     "book_learn": [ [ "divine_weapon", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 4 ] ], [ [ "punch_dagger", 1 ] ] ],
-    "byproducts": [ [ "ash", 2 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 2 ] ]
   }
 ]

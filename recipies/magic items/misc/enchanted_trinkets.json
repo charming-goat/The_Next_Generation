@@ -10,10 +10,7 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 30 ] ], [ [ "totem_small", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 30 ] ], [ [ "totem_small", 1 ] ] ]
   }, 
 { 
     "result": "runed_totem_metal",
@@ -26,10 +23,7 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 30 ] ], [ [ "totem_small_metal", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 30 ] ], [ [ "totem_small_metal", 1 ] ] ]
   }, 
 { 
     "result": "runed_totem_fiber",
@@ -43,10 +37,7 @@
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
     "tools": [ [ [ "feather_quill", 1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 30 ] ], [ [ "totem_small_fiber", 1 ] ], [ [ "ink", 3 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 30 ] ], [ [ "totem_small_fiber", 1 ] ], [ [ "ink", 3 ] ] ]
   }, 
 { 
     "result": "runed_bone_charm",
@@ -59,10 +50,7 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 30 ] ], [ [ "bone_charm", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 30 ] ], [ [ "bone_charm", 1 ] ] ]
   }, 
 { 
     "result": "runed_holy_symbol",
@@ -75,10 +63,7 @@
     "time": "15 m",
     "book_learn": [ [ "gods_and_godesses", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "holy_symbol_wood", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "holy_symbol_wood", 1 ] ] ]
   }, 
 { 
     "result": "light_runed_totem",
@@ -91,10 +76,7 @@
     "time": "15 m",
     "book_learn": [ [ "totem_book", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false }  
-                     ]
+    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem", 1 ] ] ]
 },      
 { 
     "result": "dark_runed_totem",
@@ -107,10 +89,7 @@
     "time": "15 m",
     "book_learn": [ [ "totem_book", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]
+    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem", 1 ] ] ]
 },      
 { 
     "result": "mountian_runed_totem",
@@ -123,10 +102,7 @@
     "time": "15 m",
     "book_learn": [ [ "totem_book", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ] 
+    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem", 1 ] ] ]
 },    
 { 
     "result": "ocean_runed_totem",
@@ -139,10 +115,7 @@
     "time": "15 m",
     "book_learn": [ [ "totem_book", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false }  
-                     ]
+    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem", 1 ] ] ]
 }, 
 { 
     "result": "forest_runed_totem",
@@ -155,10 +128,7 @@
     "time": "15 m",
     "book_learn": [ [ "totem_book", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ] 
+    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem", 1 ] ] ]
 },
 { 
     "result": "fire_totem_metal",
@@ -171,10 +141,7 @@
     "time": "15 m",
     "book_learn": [ [ "totem_book", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem_metal", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false }  
-                     ]
+    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem_metal", 1 ] ] ]
 },      
 { 
     "result": "channel_totem_metal",
@@ -187,10 +154,7 @@
     "time": "15 m",
     "book_learn": [ [ "totem_book", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem_metal", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false }  
-                     ]
+    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem_metal", 1 ] ] ]
 },  
 { 
     "result": "ice_totem_metal",
@@ -203,10 +167,7 @@
     "time": "15 m",
     "book_learn": [ [ "totem_book", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem_metal", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false }  
-                     ]
+    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem_metal", 1 ] ] ]
 },    
 { 
     "result": "defense_totem_metal",
@@ -219,10 +180,7 @@
     "time": "15 m",
     "book_learn": [ [ "totem_book", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem_metal", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false }  
-                     ]
+    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem_metal", 1 ] ] ]
 },
 { 
     "result": "health_totem_fiber",
@@ -235,10 +193,7 @@
     "time": "15 m",
     "book_learn": [ [ "totem_book", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem_fiber", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false }  
-                     ]
+    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem_fiber", 1 ] ] ]
 },      
 { 
     "result": "poison_totem_fiber",
@@ -251,10 +206,7 @@
     "time": "15 m",
     "book_learn": [ [ "totem_book", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem_fiber", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false }  
-                     ]
+    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem_fiber", 1 ] ] ]
 }, 
 { 
     "result": "mana_totem_fiber",
@@ -267,9 +219,6 @@
     "time": "15 m",
     "book_learn": [ [ "totem_book", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem_fiber", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ] 
+    "components": [ [ [ "crystallized_mana", 50 ] ], [ [ "runed_totem_fiber", 1 ] ] ]
 }                            
 ]

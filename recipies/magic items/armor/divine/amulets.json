@@ -10,10 +10,7 @@
     "time": "30 m",
     "book_learn": [ [ "divinity_general", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ]  
   },
 { 
     "result": "holy_symbol_bless",
@@ -26,10 +23,7 @@
     "time": "30 m",
     "book_learn": [ [ "divinity_general", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ]  
   },
 { 
     "result": "holy_symbol_guardians",
@@ -42,10 +36,7 @@
     "time": "30 m",
     "book_learn": [ [ "divinity_general", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ]  
   },
 { 
     "result": "holy_symbol_force",
@@ -58,10 +49,7 @@
     "time": "30 m",
     "book_learn": [ [ "divinity_general", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ]  
   },
 { 
     "result": "holy_symbol_protection",
@@ -74,10 +62,7 @@
     "time": "30 m",
     "book_learn": [ [ "divinity_general", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ]  
   },
 { 
     "result": "holy_symbol_spare_dying",
@@ -90,10 +75,7 @@
     "time": "45 m",
     "book_learn": [ [ "divinity_life", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ]  
   },
   { 
     "result": "holy_symbol_poison_protect",
@@ -106,10 +88,7 @@
     "time": "45 m",
     "book_learn": [ [ "divinity_life", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ]  
   },
   { 
     "result": "holy_symbol_ease_discomfort",
@@ -122,10 +101,7 @@
     "time": "45 m",
     "book_learn": [ [ "divinity_life", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ]  
   },
   { 
     "result": "holy_symbol_enlarged",
@@ -138,10 +114,7 @@
     "time": "45 m",
     "book_learn": [ [ "divinity_war", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ]  
   },
   { 
     "result": "holy_symbol_force_greater",
@@ -154,10 +127,7 @@
     "time": "45 m",
     "book_learn": [ [ "divinity_war", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ]  
   },
   { 
     "result": "holy_symbol_cleave",
@@ -170,10 +140,7 @@
     "time": "45 m",
     "book_learn": [ [ "divinity_war", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ]  
   },
   { 
     "result": "holy_symbol_sacred_flame",
@@ -186,10 +153,7 @@
     "time": "45 m",
     "book_learn": [ [ "divinity_light", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ]  
   },
   { 
     "result": "holy_symbol_firesphere",
@@ -202,10 +166,7 @@
     "time": "45 m",
     "book_learn": [ [ "divinity_light", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ]  
   },
   { 
     "result": "holy_symbol_light",
@@ -218,10 +179,7 @@
     "time": "45 m",
     "book_learn": [ [ "divinity_light", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ]  
   },
   { 
     "result": "holy_symbol_star_beam",
@@ -234,9 +192,6 @@
     "time": "45 m",
     "book_learn": [ [ "divinity_twilight", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
-    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "components": [ [ [ "crystallized_mana", 100 ] ], [ [ "runed_holy_symbol", 1 ] ] ]  
   }
 ]

@@ -10,9 +10,7 @@
     "volume": "4 L",
     "weight": "4 kg",
     "price": 3000,
-    "flags": [ "TARDIS" ],
-    "storage": "40 L",
-    "max_encumbrance": 55,
+    "flags": [ "TARDIS" ]
   },
 {
     "id": "backpack_holding",
@@ -28,12 +26,9 @@
     "color": "magenta",
     "warmth": 10,
     "material_thickness": 2,
-    "storage": "100 L",
-    "max_encumbrance": 100,
+    "coverage": 50, 
     "use_action": { "type": "holster", "holster_prompt": "Sheath blade", "holster_msg": "You sheath your %s" },
     "flags": [ "BELTED", "WATERPROOF", "ONLY_ONE", "OVERSIZE", "TARDIS" ],
-    "encumbrance": 10, 
-    "coverage": 50, 
     "covers": [ "torso" ]
   } 
 ]

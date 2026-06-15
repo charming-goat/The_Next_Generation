@@ -11,12 +11,12 @@
       { 
          "text": "Can I help you with anything?", 
          "topic": "TALK_ACADEMY_DEAN_HELP",	
-         "condition": { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission" } }     
+         "condition": { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" } }     
       },
       { 
          "text": "What do you need done?", 
          "topic": "TALK_CULT_JOBS",
-         "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission" }     
+         "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" }     
       }
     ]
   },

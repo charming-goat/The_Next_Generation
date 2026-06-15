@@ -63,23 +63,6 @@
     "flags": [ "BURNOUT", "NO_RELOAD", "NO_UNLOAD" ]
   },
 {
-    "id": "orb_cleaning",
-    "type": "TOOL",
-    "name": { "str": "cleansing orb" },
-    "description": "This is a stone sphere with strange etchings covering it. When activated, it can remove dirt and grime from an object.",
-    "weight": "311 g",
-    "volume": "750 ml",
-    "price": 6000,
-    "bashing": 6,
-    "material": [ "stone" ],
-    "use_action": [ "WASH_ALL_ITEMS" ],
-    "flags": [ "NO_RELOAD", "NO_UNLOAD" ],
-    "symbol": "o",
-    "color": "white",
-    "charges_per_use": 1,
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } }
-  },
-{
     "id": "orb_shielding",
     "type": "TOOL",
     "name": { "str": "shielding orb" },
@@ -120,7 +103,7 @@
     "charges_per_use": 1,
     "description": "This is a small metal chalice, decorated with depictions of the ocean. It holds a misty, water-like liquid in it, which occaisionally rises in the form of gas.",
     "use_action": [ { "type": "cast_spell", "spell_id": "spawn_water_elementals", "no_fail": true, "level": 1, "need_wielding": true } ],
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "relic_data": { "recharge_scheme": [{"type": "time", "interval": "24 h", "rate": 1}] },
     "flags": [ "MAGIC_FOCUS", "NO_RELOAD", "NO_UNLOAD" ]
   },
 {
@@ -133,7 +116,7 @@
     "charges_per_use": 1,
     "description": "This is a small metal chalice, decorated with depictions of fire. A small flame burns within.",
     "use_action": [ { "type": "cast_spell", "spell_id": "spawn_fire_elementals", "no_fail": true, "level": 1, "need_wielding": true } ],
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "relic_data": { "recharge_scheme": [{"type": "time", "interval": "24 h", "rate": 1}] },
     "flags": [ "MAGIC_FOCUS", "NO_RELOAD", "NO_UNLOAD" ]
   },
 {
@@ -146,7 +129,7 @@
     "charges_per_use": 1,
     "description": "This is a small clay chalice, with frescoes of landscapes coating it. Three pebbles sit inside, rolling with it's movement in set channels.",
     "use_action": [ { "type": "cast_spell", "spell_id": "spawn_earth_elementals", "no_fail": true, "level": 1, "need_wielding": true } ],
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "relic_data": { "recharge_scheme": [{"type": "time", "interval": "24 h", "rate": 1}] },
     "flags": [ "MAGIC_FOCUS", "NO_RELOAD", "NO_UNLOAD" ]
   },
 {
@@ -159,7 +142,7 @@
     "charges_per_use": 1,
     "description": "This is a small clay chalice, with frescoes of the sky coating it. The interior is empty.",
     "use_action": [ { "type": "cast_spell", "spell_id": "spawn_air_elementals", "no_fail": true, "level": 1, "need_wielding": true } ],
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "relic_data": { "recharge_scheme": [{"type": "time", "interval": "24 h", "rate": 1}] },
     "flags": [ "MAGIC_FOCUS", "NO_RELOAD", "NO_UNLOAD" ]
   },
 {
@@ -195,7 +178,7 @@
     "color": "blue",
     "charges_per_use": 1,
     "use_action": [ { "type": "cast_spell", "spell_id": "water_summon", "no_fail": true, "level": 6, "need_wielding": true } ],
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "12 h", "regenerate_ammo": true } }
+    "relic_data": { "recharge_scheme": [{"type": "time", "interval": "12 h", "rate": 1}] }
   },
 {
     "id": "smoke_flask_endless",
@@ -213,7 +196,7 @@
     "color": "light_gray",
     "charges_per_use": 1,
     "use_action": [ { "type": "cast_spell", "spell_id": "smokescreen", "no_fail": true, "level": 1, "need_wielding": true } ],
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "12 h", "regenerate_ammo": true } }
+    "relic_data": { "recharge_scheme": [{"type": "time", "interval": "12 h", "rate": 1}] }
   },
 {
     "type": "COMESTIBLE",

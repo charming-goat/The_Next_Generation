@@ -2,7 +2,6 @@
  {
     "result": "fire_protection_lesser",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARCANE",
     "subcategory": "CSC_ARCANE_ALCHEMY",
     "skill_used": "chemistry",
@@ -12,7 +11,6 @@
     "difficulty": 2,
     "time": "3 h",
     "using": [ [ "alchemy_fire", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_alchemy" } ],
     "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "mana_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
@@ -20,7 +18,6 @@
 {
     "result": "fire_breath_lesser",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARCANE",
     "subcategory": "CSC_ARCANE_ALCHEMY",
     "skill_used": "chemistry",
@@ -30,7 +27,6 @@
     "difficulty": 2,
     "time": "3 h",
     "using": [ [ "alchemy_fire", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_alchemy" } ],
     "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "mana_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
@@ -38,7 +34,6 @@
 {
     "result": "pain_reduction_lesser",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARCANE",
     "subcategory": "CSC_ARCANE_ALCHEMY",
     "skill_used": "chemistry",
@@ -48,7 +43,6 @@
     "difficulty": 2,
     "time": "3 h",
     "using": [ [ "alchemy_fire", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_alchemy" } ],
     "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "mana_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
@@ -56,7 +50,6 @@
 {
     "result": "battle_potion_lesser",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARCANE",
     "subcategory": "CSC_ARCANE_ALCHEMY",
     "skill_used": "chemistry",
@@ -66,7 +59,6 @@
     "difficulty": 2,
     "time": "3 h",
     "using": [ [ "alchemy_fire", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_alchemy" } ],
     "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "mana_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
@@ -74,7 +66,6 @@
 {
     "result": "cold_protection_lesser",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARCANE",
     "subcategory": "CSC_ARCANE_ALCHEMY",
     "skill_used": "chemistry",
@@ -84,7 +75,6 @@
     "difficulty": 2,
     "time": "3 h",
     "using": [ [ "alchemy_water", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_alchemy" } ],
     "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "mana_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
@@ -92,7 +82,6 @@
 {
     "result": "euphoria_lesser",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARCANE",
     "subcategory": "CSC_ARCANE_ALCHEMY",
     "skill_used": "chemistry",
@@ -102,7 +91,6 @@
     "difficulty": 2,
     "time": "3 h",
     "using": [ [ "alchemy_water", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_alchemy" } ],
     "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "mana_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
@@ -110,7 +98,6 @@
 {
     "result": "potion_beauty_lesser",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARCANE",
     "subcategory": "CSC_ARCANE_ALCHEMY",
     "skill_used": "chemistry",
@@ -120,7 +107,6 @@
     "difficulty": 2,
     "time": "3 h",
     "using": [ [ "alchemy_water", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_alchemy" } ],
     "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "mana_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
@@ -128,7 +114,6 @@
 {
     "result": "stamina_boost_lesser",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARCANE",
     "subcategory": "CSC_ARCANE_ALCHEMY",
     "skill_used": "chemistry",
@@ -138,7 +123,6 @@
     "difficulty": 2,
     "time": "3 h",
     "using": [ [ "alchemy_water", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_alchemy" } ],
     "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "health_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
@@ -146,7 +130,6 @@
 {
     "result": "water_breath_lesser",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARCANE",
     "subcategory": "CSC_ARCANE_ALCHEMY",
     "skill_used": "chemistry",
@@ -156,7 +139,6 @@
     "difficulty": 2,
     "time": "3 h",
     "using": [ [ "alchemy_water", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_alchemy" } ],
     "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "mana_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
@@ -164,7 +146,6 @@
 {
     "result": "potion_strength_lesser",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARCANE",
     "subcategory": "CSC_ARCANE_ALCHEMY",
     "skill_used": "chemistry",
@@ -174,7 +155,6 @@
     "difficulty": 2,
     "time": "3 h",
     "using": [ [ "alchemy_earth", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_alchemy" } ],
     "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "health_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
@@ -182,7 +162,6 @@
 {
     "result": "potion_speed_lesser",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARCANE",
     "subcategory": "CSC_ARCANE_ALCHEMY",
     "skill_used": "chemistry",
@@ -192,7 +171,6 @@
     "difficulty": 2,
     "time": "3 h",
     "using": [ [ "alchemy_earth", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_alchemy" } ],
     "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "health_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
@@ -200,7 +178,6 @@
 {
     "result": "potion_sight_lesser",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARCANE",
     "subcategory": "CSC_ARCANE_ALCHEMY",
     "skill_used": "chemistry",
@@ -210,7 +187,6 @@
     "difficulty": 2,
     "time": "3 h",
     "using": [ [ "alchemy_earth", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_alchemy" } ],
     "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "health_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
@@ -218,7 +194,6 @@
 {
     "result": "potion_cleanse_lesser",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARCANE",
     "subcategory": "CSC_ARCANE_ALCHEMY",
     "skill_used": "chemistry",
@@ -228,7 +203,6 @@
     "difficulty": 2,
     "time": "3 h",
     "using": [ [ "alchemy_earth", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_alchemy" } ],
     "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "health_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
@@ -236,7 +210,6 @@
 {
     "result": "potion_antipara_lesser",
     "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARCANE",
     "subcategory": "CSC_ARCANE_ALCHEMY",
     "skill_used": "chemistry",
@@ -246,7 +219,6 @@
     "difficulty": 2,
     "time": "3 h",
     "using": [ [ "alchemy_earth", 3 ] ],
-    "proficiencies": [ { "proficiency": "prof_alchemy" } ],
     "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "poison_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]

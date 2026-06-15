@@ -37,7 +37,7 @@
     "value": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_spawn_item": "copper_coin", "count": 15 }
+		{ "u_buy_item": "copper_coin", "count": 15 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -65,7 +65,7 @@
     "value": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_spawn_item": "copper_coin", "count": 20 }
+		{ "u_buy_item": "copper_coin", "count": 20 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -92,8 +92,8 @@
     "value": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_spawn_item": "copper_coin", "count": 10 },
-		{ "u_spawn_item": "imp_ward" }
+		{ "u_buy_item": "copper_coin", "count": 10 },
+		{ "u_buy_item": "imp_ward" }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -121,7 +121,7 @@
     "value": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
         "start": { "effect": [
-		{ "u_spawn_item": "initiation_potion" }
+		{ "u_buy_item": "initiation_potion" }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {

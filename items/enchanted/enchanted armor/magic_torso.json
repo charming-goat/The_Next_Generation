@@ -17,27 +17,7 @@
     },
     "encumbrance": 10, 
     "coverage": 75, 
-    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
-  },
-{
-    "id": "cloak_hp",
-    "type": "ARMOR",
-    "name": { "str": "robe of the body", "str_pl": "robes of the body" },
-    "description": "A cotton robe embedded with runes. Wearing it increases your general resilience.",
-    "looks_like": "cloak_leather",
-    "weight": "2060 g",
-    "volume": "3050 ml",
-    "price": 10000,
-    "symbol": "w",
-    "color": "red",
-    "material": [ "cotton" ],
-    "flags": [ "OUTER", "OVERSIZE", "NONCONDUCTIVE" ],
-    "relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_HP", "multiply": 0.4 } ] } ]
-    },
-    "encumbrance": 10, 
-    "coverage": 75, 
-    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ]
   },
 {
     "id": "cloak_stamina",
@@ -53,11 +33,11 @@
     "material": [ "cotton" ],
     "flags": [ "OUTER", "OVERSIZE", "NONCONDUCTIVE" ],
     "relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "multiply": 0.4 } ] } ]
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STAMINA_CAP", "multiply": 0.4 } ] } ]
     },
     "encumbrance": 10, 
     "coverage": 75, 
-    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ]
   },   
 {
     "id": "cloak_invisibility",
@@ -74,10 +54,10 @@
     "flags": [ "OUTER", "OVERSIZE", "NONCONDUCTIVE", "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],    
     "charges_per_use": 1,
     "use_action": { "type": "cast_spell", "spell_id": "invisible_item", "no_fail": true, "level": 1, "need_worn": true },
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "relic_data": { "recharge_scheme": [{"type": "time", "interval": "24 h", "rate": 1}] },
     "encumbrance": 10, 
     "coverage": 75, 
-    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ]
   }, 
 {
     "id": "cloak_dodge",
@@ -97,7 +77,7 @@
     },
     "encumbrance": 10, 
     "coverage": 75, 
-    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ]
   },
 {
     "id": "cloak_armor",
@@ -117,7 +97,7 @@
     },
     "encumbrance": 10, 
     "coverage": 75, 
-    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ]
   },    
 {
     "id": "cloak_noshock",
@@ -137,7 +117,7 @@
     },
     "encumbrance": 10, 
     "coverage": 75, 
-    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ]
   },        
 {
     "id": "cloak_nochill",
@@ -157,7 +137,7 @@
     },
     "encumbrance": 10, 
     "coverage": 75, 
-    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ]
   },    
    
 {
@@ -178,6 +158,6 @@
     },
     "encumbrance": 10, 
     "coverage": 75, 
-    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ]
   }           
 ]

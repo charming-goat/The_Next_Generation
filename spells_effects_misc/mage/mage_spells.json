@@ -864,28 +864,6 @@
     "damage_type": "bash"
   },
 {
-    "id": "polymorph",
-    "type": "SPELL",
-    "name": "Polymorph; Crow",
-    "description": "You transform a nearby creature into a crow.",
-    "valid_targets": [ "hostile", "ally", "ground" ],
-    "flags": [ "VERBAL", "SOMATIC", "NO_LEGS" ],
-    "effect": "targeted_polymorph",
-    "effect_str": "mon_crow",
-    "spell_class": "MAGE",
-    "energy_source": "MANA",
-    "base_casting_time": 150,
-    "base_energy_cost": 200,
-    "difficulty": 4,
-    "max_level": 20,
-    "min_damage": 20,
-    "max_damage": 40,
-    "damage_increment": 2,
-    "min_range": 5,
-    "max_range": 30,
-    "range_increment": 1.5
-  },
-{
     "id": "mage_clairvoyance",
     "type": "SPELL",
     "name": "Clairvoyance",

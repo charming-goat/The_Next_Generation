@@ -22,28 +22,6 @@
     "covers": [ "head" ]
   },
 {
-    "id": "hat_hp",
-    "type": "ARMOR",
-    "name": { "str": "hat of the body", "str_pl": "hats of the body" },
-    "description": "A cone-shaped hat embedded with runes. Wearing it increases your resilience to harm.",
-    "weight": "390 g",
-    "volume": "2 L",
-    "price": 9500,
-    "material": [ "cotton" ],
-    "symbol": "^",
-    "color": "red",
-    "warmth": 7,
-    "material_thickness": 2,
-    "environmental_protection": 2,
-    "relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_HP", "multiply": 0.2 } ] } ]
-    },
-    "flags": [ "VARSIZE" ],
-    "encumbrance": 12, 
-    "coverage": 50, 
-    "covers": [ "head" ]
-  },
-{
     "id": "hat_stamina",
     "type": "ARMOR",
     "name": { "str": "hat of fresh wind", "str_pl": "hats of fresh wind" },

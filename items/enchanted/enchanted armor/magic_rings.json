@@ -11,23 +11,13 @@
   },
 {
     "type": "TOOL_ARMOR",
-    "id": "ring_hp",
-    "name": { "str": "ring of the body", "str_pl": "rings of the body" },
-    "description": "A plain copper ring, engraved with runes. Wearing it increases your general resilience.",
-    "copy-from": "copper_ring",
-    "price_postapoc": 2000,
-    "flags": [ "ONLY_ONE" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_HP", "multiply": 0.1 } ] } ] }
-  },   
-{
-    "type": "TOOL_ARMOR",
     "id": "ring_stamina",
     "name": { "str": "ring of fresh breath", "str_pl": "rings of fresh breath" },
     "description": "A plain copper ring, engraved with runes. Wearing it increases your stamina.",
     "copy-from": "copper_ring",
     "price_postapoc": 2000,
     "flags": [ "ONLY_ONE" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "multiply": 0.1 } ] } ] }
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STAMINA_CAP", "multiply": 0.1 } ] } ] }
   },
 {
     "type": "TOOL_ARMOR",

@@ -11,10 +11,7 @@
     "book_learn": [ [ "divinity_general", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 2 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "byproducts": [ [ "ash", 10 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 10 ] ]
   },
 { 
     "result": "holy_symbol_bless",
@@ -28,10 +25,7 @@
     "book_learn": [ [ "divinity_general", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 2 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "byproducts": [ [ "ash", 10 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 10 ] ]
   },
 { 
     "result": "holy_symbol_guardians",
@@ -45,10 +39,7 @@
     "book_learn": [ [ "divinity_general", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 2 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "byproducts": [ [ "ash", 10 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 10 ] ]
   },
 { 
     "result": "holy_symbol_force",
@@ -62,10 +53,7 @@
     "book_learn": [ [ "divinity_general", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 2 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "byproducts": [ [ "ash", 10 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 10 ] ]
   },
 { 
     "result": "holy_symbol_protection",
@@ -79,10 +67,7 @@
     "book_learn": [ [ "divinity_general", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 2 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "byproducts": [ [ "ash", 10 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 10 ] ]
   },
 { 
     "result": "holy_symbol_spare_dying",
@@ -96,10 +81,7 @@
     "book_learn": [ [ "divinity_life", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 2 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "byproducts": [ [ "ash", 10 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 10 ] ]
   },
   { 
     "result": "holy_symbol_poison_protect",
@@ -113,10 +95,7 @@
     "book_learn": [ [ "divinity_life", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 2 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "byproducts": [ [ "ash", 10 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 10 ] ]
   },
   { 
     "result": "holy_symbol_ease_discomfort",
@@ -130,10 +109,7 @@
     "book_learn": [ [ "divinity_life", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 2 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "byproducts": [ [ "ash", 10 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 10 ] ]
   },
   { 
     "result": "holy_symbol_enlarged",
@@ -147,10 +123,7 @@
     "book_learn": [ [ "divinity_war", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 2 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "byproducts": [ [ "ash", 10 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 10 ] ]
   },
   { 
     "result": "holy_symbol_force_greater",
@@ -164,10 +137,7 @@
     "book_learn": [ [ "divinity_war", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 2 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "byproducts": [ [ "ash", 10 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 10 ] ]
   },
   { 
     "result": "holy_symbol_cleave",
@@ -181,10 +151,7 @@
     "book_learn": [ [ "divinity_war", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 2 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "byproducts": [ [ "ash", 10 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 10 ] ]
   },
   { 
     "result": "holy_symbol_sacred_flame",
@@ -198,10 +165,7 @@
     "book_learn": [ [ "divinity_light", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 2 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "byproducts": [ [ "ash", 10 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 10 ] ]
   },
   { 
     "result": "holy_symbol_firesphere",
@@ -215,10 +179,7 @@
     "book_learn": [ [ "divinity_light", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 2 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "byproducts": [ [ "ash", 10 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 10 ] ]
   },
   { 
     "result": "holy_symbol_light",
@@ -232,10 +193,7 @@
     "book_learn": [ [ "divinity_light", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 2 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "byproducts": [ [ "ash", 10 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 10 ] ]
   },
   { 
     "result": "holy_symbol_star_beam",
@@ -249,9 +207,6 @@
     "book_learn": [ [ "divinity_twilight", 1 ] ],
     "tools": [ [ [ "t_daltar", -1 ] ] ],
     "components": [ [ [ "incense", 2 ] ], [ [ "runed_holy_symbol", 1 ] ] ],
-    "byproducts": [ [ "ash", 10 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_infusion", "required": false } 
-                     ]   
+    "byproducts": [ [ "ash", 10 ] ]
   }
 ]

@@ -7,7 +7,7 @@
     "name": "staff of magical concentration",
     "description": "A quarterstaff engraved with magical runes, designed to enhance the focus of spellcasters by channeling their magic through it. In a pinch, it makes a good melee weapon. It also boasts a slight increase in mana reserves to its wielder.",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
-    "relic_data": { "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 200 } ] } ] }
+    "relic_data": { "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "MANA_CAP", "add": 200 } ] } ] }
  },
 {
     "type": "GENERIC",
@@ -17,7 +17,7 @@
     "name": "staff of magical connection",
     "description": "A quarterstaff engraved with magical runes, designed to enhance the focus of spellcasters by channeling their magic through it. In a pinch, it makes a good melee weapon. It also boasts an increase in mana reserves to its wielder.",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
-    "relic_data": { "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 400 } ] } ] }
+    "relic_data": { "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "MANA_CAP", "add": 400 } ] } ] }
  },
 {
     "type": "GENERIC",
@@ -27,6 +27,6 @@
     "name": "arcane puddle staff",
     "description": "A quarterstaff engraved with magical runes, designed to enhance the focus of spellcasters by channeling their magic through it. In a pinch, it makes a good melee weapon. It also boasts a great increase in mana reserves to its wielder.",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
-    "relic_data": { "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 600 } ] } ] }
+    "relic_data": { "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "MANA_CAP", "add": 600 } ] } ] }
  }
 ]
