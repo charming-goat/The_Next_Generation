@@ -7,7 +7,7 @@
     "default_faction": "GOBLINOID",
     "bodytype": "human",
     "categories": [ "MONSTERS" ],
-    "species": [ "GOBLIN" ],
+    "species": [ "GOBLINOID" ],
     "volume": "132 L",
     "weight": "180 kg",
     "hp": 135,

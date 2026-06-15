@@ -44,7 +44,7 @@
       "terrain": 
                { 
                  ".": [ [ "t_grass", 5 ], [ "t_dirt", 3 ] ],
-                 "/": "t_embrasure_rock",
+                 "/": "t_rock",
                  "`": "t_rock_floor"  
                },
 	  "npcs": {
@@ -98,7 +98,7 @@
                },
       "terrain": 
                { 
-                 "~": "t_embrasure_rock" 
+                 "~": "t_rock" 
                },
       "items": {
                  "/": { "item": "bed", "chance": 100 }	  
@@ -147,7 +147,7 @@
       "palettes": [ "city_building_roof_palette" ],
        "terrain": 
                { 
-                 ".": "t_embrasure_rock"
+                 ".": "t_rock"
                },
 	  "npcs": {
 		"1": { "class": "city_guard" }

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "wheel_mount_wood",
+    "type": "GENERIC",
+    "category": "veh_parts",
+    "name": { "str": "wooden wheel mount" },
+    "description": "A piece of metal with holes suitable for a bike or motorbike wheel.",
+    "weight": "150 g",
+    "volume": "250 ml",
+    "price": "10 cent",
+    "price_postapoc": "10 cent",
+    "material": [ "wood" ],
+    "symbol": ";",
+    "color": "dark_gray"
+  }
+]
