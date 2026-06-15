@@ -8,7 +8,7 @@
     "difficulty": 4,
     "time": "7 h",
     "book_learn": [ [ "textbook_armwest", 5 ] ],
-    "using": [ [ "blacksmithing_standard", 24 ], [ "steel_standard", 6 ], [ "clasps", 2 ], [ "strap_small", 2 ] ],
+    "using": [ [ "blacksmithing_standard", 24 ], [ "steel_standard", 6 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "swage", -1 ] ] ]
   },
@@ -21,7 +21,7 @@
     "difficulty": 4,
     "time": "7 h",
     "book_learn": [ [ "textbook_armwest", 5 ] ],
-    "using": [ [ "blacksmithing_standard", 24 ], [ "steel_standard", 9 ], [ "clasps", 3 ], [ "strap_small", 3 ] ],
+    "using": [ [ "blacksmithing_standard", 24 ], [ "steel_standard", 9 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "swage", -1 ] ] ]
   },
@@ -34,7 +34,7 @@
     "difficulty": 5,
     "time": "7 h",
     "book_learn": [ [ "textbook_armwest", 5 ] ],
-    "using": [ [ "blacksmithing_standard", 24 ], [ "steel_standard", 12 ], [ "clasps", 4 ], [ "strap_small", 4 ] ],
+    "using": [ [ "blacksmithing_standard", 24 ], [ "steel_standard", 12 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "swage", -1 ] ] ]
   }, 
@@ -47,7 +47,7 @@
     "difficulty": 4,
     "time": "40 m",
     "autolearn": true,
-    "using": [ [ "strap_small", 2 ] ],
+    "using": [ [ "blacksmithing_standard", 24 ] ],
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "2x4", 6 ] ], [ [ "nail", 8 ] ] ]
   },
@@ -60,7 +60,7 @@
     "difficulty": 4,
     "time": "40 m",
     "autolearn": true,
-    "using": [ [ "strap_small", 3 ] ],
+    "using": [ [ "blacksmithing_standard", 24 ] ],
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "2x4", 12 ] ], [ [ "nail", 16 ] ] ]
   },
@@ -73,7 +73,7 @@
     "difficulty": 4,
     "time": "40 m",
     "autolearn": true,
-    "using": [ [ "strap_small", 4 ] ],
+    "using": [ [ "blacksmithing_standard", 24 ] ],
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "2x4", 24 ] ], [ [ "nail", 32 ] ] ]
   }

@@ -19,7 +19,7 @@
     "difficulty": 0,
     "time": "10 m",  
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "bone_any", 10, "LIST" ] ] ]
+    "components": [ [ [ "bone_sturdy", 10, "LIST" ] ] ]
   },
 {
     "result": "totem_small_metal",
@@ -32,15 +32,5 @@
     "using": [ [ "blacksmithing_standard", 3 ], [ "steel_tiny", 1 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "swage", -1 ] ] ]
-  },
-{
-    "result": "totem_small_fiber",
-    "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_OTHER",
-    "skill_used": "fabrication",
-    "difficulty": 0,
-    "time": "10 m",
-    "using": [ [ "plant_cordage", 1 ] ]
   }
 ]

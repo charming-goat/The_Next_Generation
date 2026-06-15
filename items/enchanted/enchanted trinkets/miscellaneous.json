@@ -36,7 +36,7 @@
       "type": "transform"
     }, 
     { "type": "cast_spell", "spell_id": "minor_teleport", "no_fail": true, "level": 1, "need_wielding": true } ],
-    "flags": [ "BURNOUT", "NO_RELOAD", "NO_UNLOAD" ]
+    "flags": [ "NO_RELOAD", "NO_UNLOAD" ]
   },
 {
     "id": "candle_fire",
@@ -60,7 +60,7 @@
       "type": "transform"
     }, 
     { "type": "cast_spell", "spell_id": "firebolt", "no_fail": true, "level": 1, "need_wielding": true } ],
-    "flags": [ "BURNOUT", "NO_RELOAD", "NO_UNLOAD" ]
+    "flags": [ "NO_RELOAD", "NO_UNLOAD" ]
   },
 {
     "id": "orb_shielding",

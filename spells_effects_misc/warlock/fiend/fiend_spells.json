@@ -102,7 +102,7 @@
     "skill": "occult",
     "difficulty": 3,
     "max_level": 20,
-    "damage_type": "heat",
+    "damage_type": "fire",
     "flags": [ "VERBAL", "NO_HANDS" ],
     "energy_source": "MANA"
   },

@@ -53,7 +53,7 @@
     "price_postapoc": 100,
     "material": [ "wheat" ],
     "volume": "250 ml",
-    "flags": [ "EATEN_HOT", "EDIBLE_FROZEN" ],
+    "flags": [ "EATEN_HOT" ],
     "vitamins": [ [ "calcium", 5 ], [ "iron", 12 ] ]
   },
   {
