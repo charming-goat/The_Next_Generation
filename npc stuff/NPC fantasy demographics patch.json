@@ -29,12 +29,7 @@
     "id": "hair_distro",
     "subtype": "distribution",
     "traits": [
-      { "group": "Hair_Red", "prob": 15 },
-      { "group": "Hair_Blond", "prob": 15 },
-      { "group": "Hair_Black", "prob": 20 },
-      { "group": "Hair_Brown", "prob": 20 },
-      { "group": "Hair_Gray", "prob": 13 },
-      { "group": "Hair_White", "prob": 13 },
+      {"group": "Hair_Color_Any", "prob": 100},
       { "trait": "HAIR_BALD", "prob": 4 }
     ]
   },

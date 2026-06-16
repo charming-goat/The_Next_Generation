@@ -630,8 +630,8 @@
     "name": "a spell",
     "description": "Targets then casts the spells.",
     "extra_effects": [
-      { "id": "hellbolt" },
-      { "id": "hellbolt" },
+      { "id": "Hellbolt" },
+      { "id": "Hellbolt" },
       { "id": "toxic_cloud" },
       { "id": "hellswipe" }
     ],
