@@ -804,7 +804,7 @@
     "name": "Runic Surge",
     "description": "Craft the first rune of longevity.",
     "goal": "MGOAL_FIND_ITEM",
-    "item": "ench_tat_hp_1",
+    "item": "ench_tat_stamina_1",
 	"count": 1,
     "difficulty": 1,
     "value": 1000,
