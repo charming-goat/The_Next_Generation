@@ -1,0 +1,57 @@
+[
+  {
+     "type" : "vehicle_spawn",
+        "id" : "default_city",
+        "spawn_types" : [
+            {
+                "//" : "Clear section of road",
+                "weight" : 10000,
+                "vehicle_function" : "no_vehicles"
+            }
+          ]
+  },
+  {
+     "type" : "vehicle_spawn",
+        "id" : "default_country",
+        "spawn_types" : [
+            {
+                "//" : "Clear section of road",
+                "weight" : 10000,
+                "vehicle_function" : "no_vehicles"
+            }
+          ]
+  },
+  {
+          "type" : "vehicle_spawn",
+        "id" : "default_bridge",
+        "spawn_types" : [
+            {
+                "//" : "Clear section of bridge",
+                "weight" : 849000,
+                "vehicle_function" : "no_vehicles"
+            }
+        ]
+    },
+    {
+        "type" : "vehicle_spawn",
+        "id" : "default_highway",
+        "spawn_types" : [
+            {
+                "//" : "Clear section of highway",
+                "weight" : 989900,
+                "vehicle_function" : "no_vehicles"
+            }
+        ]
+    },
+    {
+        "type" : "vehicle_spawn",
+        "id" : "default_parkinglot",
+        "spawn_types" : [
+            {
+                "//" : "Clear section",
+                "weight" : 950000,
+                "vehicle_function" : "no_vehicles"
+            }
+          ]
+          }
+]

@@ -567,7 +567,6 @@
         "generalstore": 7, 
         "infirmary": 5, 
         "stables": 3,
-        "alchemists_store": 3,
         "church_mtc": 5,
         "carpentry_workshop": 5,   
         "bakery_mtc": 4,       
@@ -582,7 +581,7 @@
       },
       "parks": { "park": 0 },
       "shops": {
-        
+                "alchemists_store": 3
       },
       "finales": {
         "s_electronics_2": 200,

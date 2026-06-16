@@ -24,7 +24,7 @@
     "armor_bash": 4,
     "armor_cut": 6,
     "armor_bullet": 4,
-    "harvest": "demihuman",
+    "harvest": "human",
     "vision_day": 40,
     "vision_night": 15,
     "death_drops": {
