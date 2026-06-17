@@ -41,11 +41,11 @@
       "mon_mtc_goblin_hammerman",
       "mon_mtc_goblin_marksman",
       "mon_mtc_goblin_thrower",
-      "mon_mtc_goblin_immobilizer",
+      "mon_mtc_goblin_immobilzer",
       "mon_mtc_goblin_warbanner",
       "mon_mtc_goblin_shaman",
       "mon_mtc_goblin_mage",
-      "mon_mtc_goblin_cheiftan",
+      "mon_mtc_goblin_chieftain",
       "mon_mtc_goblin_necromancer"
     ],
 	"effect": "mod_moves",

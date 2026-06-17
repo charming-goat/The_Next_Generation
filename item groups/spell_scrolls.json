@@ -53,8 +53,7 @@
       [ "spell_scroll_freeze", 15 ],      
       [ "spell_scroll_summon_minor_elemental", 15 ],      
       [ "spell_scroll_faithful_hound", 15 ],      
-      [ "spell_scroll_ice_storm", 15 ],     
-      [ "spell_scroll_polymorph", 15 ]
+      [ "spell_scroll_ice_storm", 15 ]
     ]
   },
   {

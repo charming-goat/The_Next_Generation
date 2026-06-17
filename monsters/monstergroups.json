@@ -14,7 +14,6 @@
       { "monster": "mon_mtc_goblin_shaman", "freq": 15, "cost_multiplier": 1 },
       { "monster": "mon_mtc_goblin_mage", "freq": 10, "cost_multiplier": 1 },
       { "monster": "mon_mtc_goblin_necromancer", "freq": 5, "cost_multiplier": 1 },
-      { "monster": "mon_mtc_goblin_mounted", "freq": 15, "cost_multiplier": 1 },
       { "monster": "mon_mtc_goblin_chieftain", "freq": 0, "cost_multiplier": 0 }
     ]
   },
