@@ -142,49 +142,6 @@
     "min_range": 12
   },
   {
-    "type": "SPELL",
-    "id": "mon_mtc_goblin_mounted_ed",
-    "name": "Revert",
-    "description": "Worg's ability to dismount is gone!",
-    "flags": [ "SILENT" ],
-    "valid_targets": [ "self" ],
-    "min_damage": 69420,
-    "max_damage": 69420,
-    "effect": "target_attack",
-	
-    "effect_str": "mon_mtc_worg"
-  },
-  {
-    "type": "SPELL",
-    "id": "mon_mtc_goblin_mounted_dismount",
-    "name": "Dismount",
-    "description": "The goblin dismounts from the worg.",
-    "flags": [ "SILENT", "HOSTILE_SUMMON", "RANDOM_TARGET", "PERMANENT" ],
-    "valid_targets": [ "ground" ],
-    "min_damage": 1,
-    "max_damage": 1,
-    "min_range": 2,
-    "max_range": 2,
-    "effect": "summon",
-	
-    "effect_str": "GROUP_DMBB_GOBLIN_DISMOUNT"
-  },
-  {
-    "type": "SPELL",
-    "id": "mon_mtc_goblin_mounted_target",
-    "name": "a spell",
-    "description": "Targets then casts the spells.",
-    "extra_effects": [
-      { "id": "mon_mtc_goblin_mounted_dismount", "hit_self": true },
-      { "id": "mon_mtc_goblin_mounted_ed", "hit_self": true }
-    ],
-    "flags": [ "SILENT" ],
-    "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "target_attack",
-	
-    "min_range": 3
-  },
-  {
     "id": "mon_mtc_goblin_mage_spellbound",
     "type": "SPELL",
     "name": "Spellbound",

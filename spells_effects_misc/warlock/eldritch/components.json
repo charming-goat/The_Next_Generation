@@ -16,7 +16,7 @@
     "id": "components_commune",
     "type": "requirement",
     "//": "Blood to commune",
-    "components": [ [ [ "the_blood", 3 ] ] ]
+    "components": [ [ [ "the_blood_mut", 3 ] ] ]
   },
   {
     "id": "components_heal",

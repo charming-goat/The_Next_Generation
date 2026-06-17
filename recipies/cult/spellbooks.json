@@ -140,7 +140,7 @@
     "book_learn": [ [ "archaesth", 1 ] ],
     "time": "15 m",
     "tools": [ [ [ "feather_quill", -1 ], [ "survival_marker", -1 ] ] ],
-     "components": [ [ [ "paper", 1 ] ], [ [ "the_blood", 3 ] ] ]   
+     "components": [ [ [ "paper", 1 ] ], [ [ "the_blood_mut", 3 ] ] ]   
   },
   { 
     "result": "patch_priest",
@@ -153,7 +153,7 @@
     "book_learn": [ [ "archaesth", 1 ] ],
     "time": "15 m",
     "tools": [ [ [ "feather_quill", -1 ], [ "survival_marker", -1 ] ] ],
-     "components": [ [ [ "paper", 1 ] ], [ [ "the_blood", 9 ] ] ]   
+     "components": [ [ [ "paper", 1 ] ], [ [ "the_blood_mut", 9 ] ] ]   
   },
   { 
     "result": "patch_commune",
@@ -166,7 +166,7 @@
     "book_learn": [ [ "archaesth", 1 ] ],
     "time": "15 m",
     "tools": [ [ [ "feather_quill", -1 ], [ "survival_marker", -1 ] ] ],
-     "components": [ [ [ "paper", 1 ] ], [ [ "the_blood", 12 ] ] ]   
+     "components": [ [ [ "paper", 1 ] ], [ [ "the_blood_mut", 12 ] ] ]   
   },
   { 
     "result": "patch_elder",
@@ -179,6 +179,6 @@
     "book_learn": [ [ "archaesth", 1 ] ],
     "time": "15 m",
     "tools": [ [ [ "feather_quill", -1 ], [ "survival_marker", -1 ] ] ],
-     "components": [ [ [ "paper", 1 ] ], [ [ "the_blood", 24 ] ] ]   
+     "components": [ [ [ "paper", 1 ] ], [ [ "the_blood_mut", 24 ] ] ]   
   }
 ]

@@ -1,7 +1,7 @@
 [
  {
     "type": "COMESTIBLE",
-    "id": "the_blood",
+    "id": "the_blood_mut",
     "name": { "str_sp": "The Blood" },
     "weight": "265 g",
     "color": "red",
@@ -13,7 +13,7 @@
     "price_postapoc": "200 USD",
     "calories": 0,
     "addiction_potential": 50,    
-    "addiction_type": "the_blood",
+    "addiction_type": "the_blood_mut",
     "description": "Blood, seemingly nutritious and potent. Gazing upon it fills you with longing.",
     "price": "200 USD",
     "material": "hflesh",
