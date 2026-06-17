@@ -7,7 +7,7 @@
     "name": { "str": "log" },
     "description": "A large chunk of log, cut from a tree.  (a)ctivate a wood axe or wood saw to cut it into planks.",
     "category": "other",
-    "price": 2500,
+    "price": "2500 USD",
     "material": [ "wood" ],
     "weight": "30 kg",
     "volume": "50 L",

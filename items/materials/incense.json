@@ -6,7 +6,7 @@
     "description": "This is a small candle, with a pleasent aroma to it. When lit, it emits a thin trail of smoke.",
     "weight": "125 g",
     "volume": "150 ml",
-    "price": 500,
+    "price": "500 USD",
     "to_hit": -2,
     "material": [ "veggy" ],
     "symbol": ",",

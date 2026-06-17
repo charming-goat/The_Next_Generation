@@ -18,7 +18,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 2500
+    "price": "2500 USD"
   },
 {
     "id": "potion_strength",
@@ -26,7 +26,7 @@
     "name": { "str": "concentrated potion of strength" },
     "copy-from": "potion_strength_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "strength_effect_item", "no_fail": true, "level": 5 },
-    "price": 10000
+    "price": "10000 USD"
   },
 {
     "id": "potion_strength_greater",
@@ -34,7 +34,7 @@
     "name": { "str": "elixer of strength" },
     "copy-from": "potion_strength_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "strength_effect_item", "no_fail": true, "level": 10 },
-    "price": 20000
+    "price": "20000 USD"
   },
 {
     "id": "potion_speed_lesser",
@@ -55,7 +55,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 2500
+    "price": "2500 USD"
   },
 {
     "id": "potion_speed",
@@ -63,7 +63,7 @@
     "name": { "str": "concentrated potion of haste" },
     "copy-from": "potion_strength_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "speed_effect_item", "no_fail": true, "level": 5 },
-    "price": 10000
+    "price": "10000 USD"
   },
 {
     "id": "potion_speed_greater",
@@ -71,7 +71,7 @@
     "name": { "str": "elixer of haste" },
     "copy-from": "potion_strength_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "speed_effect_item", "no_fail": true, "level": 10 },
-    "price": 20000
+    "price": "20000 USD"
   },
 {
     "id": "potion_sight_lesser",
@@ -92,7 +92,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 2500
+    "price": "2500 USD"
   },
 {
     "id": "potion_sight",
@@ -100,7 +100,7 @@
     "name": { "str": "concentrated potion of vision" },
     "copy-from": "potion_sight_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "sight_effect_item", "no_fail": true, "level": 5 },
-    "price": 10000
+    "price": "10000 USD"
   },
 {
     "id": "potion_sight_greater",
@@ -108,7 +108,7 @@
     "name": { "str": "elixer of vision" },
     "copy-from": "potion_sight_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "sight_effect_item", "no_fail": true, "level": 10 },
-    "price": 20000
+    "price": "20000 USD"
   },
 {
     "id": "potion_cleanse_lesser",
@@ -130,7 +130,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 2500
+    "price": "2500 USD"
   },
 {
     "id": "potion_cleanse",
@@ -138,7 +138,7 @@
     "name": { "str": "concentrated potion of bodily health" },
     "copy-from": "potion_cleanse_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "cleanse_effect_item", "no_fail": true, "level": 5 },
-    "price": 10000
+    "price": "10000 USD"
   },
 {
     "id": "potion_cleanse_greater",
@@ -146,7 +146,7 @@
     "name": { "str": "elixer of bodily health" },
     "copy-from": "potion_cleanse_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "cleanse_effect_item", "no_fail": true, "level": 10 },
-    "price": 20000
+    "price": "20000 USD"
   },
 {
     "id": "potion_disinfect",
@@ -167,7 +167,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 25000
+    "price": "25000 USD"
   },
 {
     "id": "potion_antipara_lesser",
@@ -188,7 +188,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 25000
+    "price": "25000 USD"
   },
 {
     "id": "potion_antipara",
@@ -196,7 +196,7 @@
     "name": { "str": "concentrated potion of anti-paralysis" },
     "copy-from": "potion_antipara_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "antipara_effect_item", "no_fail": true, "level": 5 },
-    "price": 10000
+    "price": "10000 USD"
   },
 {
     "id": "potion_antipara_greater",
@@ -204,6 +204,6 @@
     "name": { "str": "elixer of anti-paralysis" },
     "copy-from": "potion_antipara_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "antipara_effect_item", "no_fail": true, "level": 10 },
-    "price": 20000
+    "price": "20000 USD"
   }
 ]

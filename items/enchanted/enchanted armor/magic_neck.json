@@ -5,7 +5,7 @@
     "name": { "str": "necklace of the arcane", "str_pl": "necklaces of the arcane" },
     "description": "A circular, silver locket engraved with runes. Wearing it increases your mana stores.",
     "copy-from": "silver_necklace",
-    "price_postapoc": 2000,
+    "price_postapoc": "2000 USD",
     "flags": [ "ONLY_ONE" ],
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MANA_CAP", "multiply": 0.1 } ] } ] }
   },           
@@ -15,7 +15,7 @@
     "name": { "str": "necklace of fresh breath", "str_pl": "necklaces of fresh breath" },
     "description": "A circular, silver locket engraved with runes. Wearing it increases your stamina.",
     "copy-from": "silver_necklace",
-    "price_postapoc": 2000,
+    "price_postapoc": "2000 USD",
     "flags": [ "ONLY_ONE" ],
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STAMINA_CAP", "multiply": 0.1 } ] } ] }
   },        
@@ -25,7 +25,7 @@
     "name": { "str": "necklace of the eagle", "str_pl": "necklaces of the eagle" },
     "description": "A circular, silver locket engraved with runes. When donning it, you can feel your eyes change.",
     "copy-from": "silver_necklace",
-    "price_postapoc": 2000,
+    "price_postapoc": "2000 USD",
     "flags": [ "ONLY_ONE" ],
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 1 } ] } ] }
   },
@@ -35,7 +35,7 @@
     "name": { "str": "necklace of blades", "str_pl": "necklaces of blades" },
     "description": "A circular, silver locket engraved with runes. It bears the insignia of a blade on the pendant.",
     "copy-from": "silver_necklace",
-    "price_postapoc": 2000,
+    "price_postapoc": "2000 USD",
     "charges_per_use": 1,
     "flags": [ "ONLY_ONE", "NO_UNLOAD", "NO_RELOAD" ],
     "use_action": { "type": "cast_spell", "spell_id": "blade_spawn_item", "no_fail": true, "level": 1, "need_worn": true },
@@ -47,7 +47,7 @@
     "name": { "str": "necklace of holding", "str_pl": "necklaces of holding" },
     "description": "A circular, silver locket engraved with runes. The pendant opens to reveal a small space for storage.",
     "copy-from": "silver_necklace",
-    "price_postapoc": 6000,
+    "price_postapoc": "6000 USD",
     "flags": [ "ONLY_ONE", "TARDIS" ],
     "storage": "15 L"
   }                

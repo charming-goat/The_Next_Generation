@@ -7,7 +7,7 @@
     "//": "Is smaller, gives off more light, and weighs less than an oil lamp, but has a lower fuel bank and is more expensive",
     "weight": "1000 g",
     "volume": "650 ml",
-    "price": 3000,
+    "price": "3000 USD",
     "to_hit": 2,
     "bashing": 1,
     "material": [ "glass", "iron" ],

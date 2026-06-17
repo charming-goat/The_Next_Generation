@@ -18,7 +18,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 2500
+    "price": "2500 USD"
   },
 {
     "id": "cold_protection",
@@ -26,7 +26,7 @@
     "name": { "str": "concentrated potion of cold protection" },
     "copy-from": "cold_protection_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "ice_protect_item", "no_fail": true, "level": 5 },
-    "price": 10000
+    "price": "10000 USD"
   },
 {
     "id": "cold_protection_greater",
@@ -34,7 +34,7 @@
     "name": { "str": "elixer of cold protection" },
     "copy-from": "cold_protection_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "ice_protect_item", "no_fail": true, "level": 10 },
-    "price": 20000
+    "price": "20000 USD"
   },
 {
     "id": "stamina_boost_lesser",
@@ -55,7 +55,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 2500
+    "price": "2500 USD"
   },
 {
     "id": "stamina_boost",
@@ -63,7 +63,7 @@
     "name": { "str": "concentrated potion of bodily cool" },
     "copy-from": "stamina_boost_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "mc_effect_item", "no_fail": true, "level": 5 },
-    "price": 10000
+    "price": "10000 USD"
   },
 {
     "id": "stamina_boost_greater",
@@ -71,7 +71,7 @@
     "name": { "str": "elixer of bodily cool" },
     "copy-from": "stamina_boost_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "mc_effect_item", "no_fail": true, "level": 10 },
-    "price": 20000
+    "price": "20000 USD"
   },
 {
     "id": "water_breath_lesser",
@@ -92,7 +92,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 2500
+    "price": "2500 USD"
   },
 {
     "id": "water_breath",
@@ -100,7 +100,7 @@
     "name": { "str": "concentrated potion of water breathing" },
     "copy-from": "water_breath_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "water_breathe_item", "no_fail": true, "level": 5 },
-    "price": 10000
+    "price": "10000 USD"
   },
 {
     "id": "water_breath_greater",
@@ -108,7 +108,7 @@
     "name": { "str": "elixer of water breathing" },
     "copy-from": "water_breath_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "water_breathe_item", "no_fail": true, "level": 10 },
-    "price": 20000
+    "price": "20000 USD"
   },
 {
     "id": "euphoria_lesser",
@@ -139,7 +139,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 2500
+    "price": "2500 USD"
   },
 {
     "id": "potion_beauty_lesser",
@@ -160,7 +160,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 5000
+    "price": "5000 USD"
   },
 {
     "id": "potion_beauty",
@@ -168,7 +168,7 @@
     "name": { "str": "concentrated potion of beauty" },
     "copy-from": "potion_beauty_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "beauty_item", "no_fail": true, "level": 5 },
-    "price": 20000
+    "price": "20000 USD"
   },
 {
     "id": "potion_beauty_greater",
@@ -176,6 +176,6 @@
     "name": { "str": "elixer of beauty" },
     "copy-from": "potion_beauty_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "beauty_item", "no_fail": true, "level": 10 },
-    "price": 40000
+    "price": "40000 USD"
   }
 ]

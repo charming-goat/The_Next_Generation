@@ -11,7 +11,7 @@
     "material": "wood", 
     "color": "brown",
     "flags": [ "NO_SALVAGE" ],
-    "price": 200
+    "price": "200 USD"
 	},
 {
     "id": "totem_small_metal",
@@ -24,7 +24,7 @@
     "material": "steel", 
     "color": "dark_gray",
     "flags": [ "NO_SALVAGE" ],
-    "price": 500
+    "price": "500 USD"
 	},
 {
     "id": "bone_charm",
@@ -37,7 +37,7 @@
     "material": "bone", 
     "color": "white",
     "flags": [ "NO_SALVAGE" ],
-    "price": 200
+    "price": "200 USD"
 	},
 {
     "id": "totem_small_fiber",
@@ -50,7 +50,7 @@
     "material": "dry_plant", 
     "color": "brown",
     "flags": [ "NO_SALVAGE" ],
-    "price": 200
+    "price": "200 USD"
 	},
 {
     "id": "runed_totem",

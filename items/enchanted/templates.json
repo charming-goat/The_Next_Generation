@@ -6,7 +6,7 @@
     "description": "A generic magic wand.",
     "weight": "250 g",
     "volume": "500 ml",
-    "price": 10000,
+    "price": "10000 USD",
     "to_hit": 1,
     "bashing": 8,
     "material": [ "wood" ],

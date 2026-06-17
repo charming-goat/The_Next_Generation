@@ -169,7 +169,7 @@
     "color": "black",
     "name": { "str": "dragon scale", "str_pl": "dragon scales" },
     "description": "A scale skinned from a dragon. It is extremely durable, and a highly valued commodity.",
-    "price": 2500,
+    "price": "2500 USD",
     "material": [ "bone", "flesh" ],
     "flags": [ "NO_SALVAGE" ],
     "weight": "380 g",

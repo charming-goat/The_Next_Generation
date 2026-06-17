@@ -5,7 +5,7 @@
     "name": { "str": "ring of the arcane", "str_pl": "rings of the arcane" },
     "description": "A plain copper ring, engraved with runes. Wearing it increases your mana stores.",
     "copy-from": "copper_ring",
-    "price_postapoc": 2000,
+    "price_postapoc": "2000 USD",
     "flags": [ "ONLY_ONE" ],
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MANA_CAP", "multiply": 0.1 } ] } ] }
   },
@@ -15,7 +15,7 @@
     "name": { "str": "ring of fresh breath", "str_pl": "rings of fresh breath" },
     "description": "A plain copper ring, engraved with runes. Wearing it increases your stamina.",
     "copy-from": "copper_ring",
-    "price_postapoc": 2000,
+    "price_postapoc": "2000 USD",
     "flags": [ "ONLY_ONE" ],
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STAMINA_CAP", "multiply": 0.1 } ] } ] }
   },
@@ -25,7 +25,7 @@
     "name": { "str": "ring of the hearth", "str_pl": "rings of the hearth" },
     "description": "A plain copper ring, engraved with runes, which glow in a red hue. While wearing this, the effect of extreme heat is negated.",
     "copy-from": "copper_ring",
-    "price_postapoc": 10000,
+    "price_postapoc": "10000 USD",
     "flags": [ "ONLY_ONE" ],
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_HEAT", "add": -5 } ] } ] }
   },
@@ -35,7 +35,7 @@
     "name": { "str": "ring of the north", "str_pl": "rings of the north" },
     "description": "A plain copper ring, engraved with runes. While wearing this, the effect of extreme cold is negated.",
     "copy-from": "copper_ring",
-    "price_postapoc": 10000,
+    "price_postapoc": "10000 USD",
     "flags": [ "ONLY_ONE" ],
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_COLD", "add": -5 } ] } ] }
   },
@@ -45,7 +45,7 @@
     "name": { "str": "ring of thunder", "str_pl": "rings of thunder" },
     "description": "A plain copper ring, engraved with runes. While wearing this, you are protected against electric discharge.",
     "copy-from": "copper_ring",
-    "price_postapoc": 10000,
+    "price_postapoc": "10000 USD",
     "flags": [ "ONLY_ONE" ],
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_ELEC", "add": -5 } ] } ] }
   }                                                    

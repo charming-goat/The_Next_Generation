@@ -9,7 +9,7 @@
     "color": "magenta",
     "volume": "4 L",
     "weight": "4 kg",
-    "price": 3000,
+    "price": "3000 USD",
     "flags": [ "TARDIS" ]
   },
 {
@@ -19,7 +19,7 @@
     "description": "A large sized hiking backpack with plenty of storage space. It contains a pocket diemsion, allowing it to store more than a similar bag. Whenever you take an item out, what you want is automatically on top. If it is torn, its contents fall out onto the ground.",
     "weight": "2291 g",
     "volume": "14700 ml",
-    "price": 100000,
+    "price": "100000 USD",
     "material": [ "leather" ],
     "symbol": "[",
     "looks_like": "backpack",

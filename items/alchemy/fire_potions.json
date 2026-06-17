@@ -18,7 +18,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 2500
+    "price": "2500 USD"
   },
 {
     "id": "fire_protection",
@@ -26,7 +26,7 @@
     "name": { "str": "concentrated potion of fire protection" },
     "copy-from": "fire_protection_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "fire_protect_item", "no_fail": true, "level": 5 },
-    "price": 10000
+    "price": "10000 USD"
   },
 {
     "id": "fire_protection_greater",
@@ -34,7 +34,7 @@
     "name": { "str": "elixer of fire protection" },
     "copy-from": "fire_protection_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "fire_protect_item", "no_fail": true, "level": 10 },
-    "price": 20000
+    "price": "20000 USD"
   },
 {
     "id": "fire_breath_lesser",
@@ -55,7 +55,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 2500
+    "price": "2500 USD"
   },
 {
     "id": "fire_breath",
@@ -63,7 +63,7 @@
     "name": { "str": "concentrated potion of firey breath" },
     "copy-from": "fire_breath_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "mage_burning_hands", "no_fail": true, "level": 5 },
-    "price": 10000
+    "price": "10000 USD"
   },
 {
     "id": "fire_breath_greater",
@@ -71,7 +71,7 @@
     "name": { "str": "elixer of firey breath" },
     "copy-from": "fire_breath_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "mage_burning_hands", "no_fail": true, "level": 10 },
-    "price": 20000
+    "price": "20000 USD"
   },
 {
     "id": "alchemists_fire",
@@ -81,8 +81,8 @@
     "description": "This is a bottle of flammable liquid, with a rag inserted. Several runes have been carved along its surface, which now glow red, and could be used to ignite the rag.",
     "weight": "742 g",
     "volume": "750 ml",
-    "price": 500,
-    "price_postapoc": 500,
+    "price": "500 USD",
+    "price_postapoc": "500 USD",
     "to_hit": 1,
     "bashing": 5,
     "material": [ "glass", "cotton" ],
@@ -110,8 +110,8 @@
     "description": "A bottle of flammable liquid with a flaming rag stoppered in its neck.  Throwing it will shatter the bottle on impact and ignite a fireball.  Dropping it will set you on fire, so don't do that unless you want to burn to death.",
     "weight": "742 g",
     "volume": "750 ml",
-    "price": 0,
-    "price_postapoc": 0,
+    "price": "0 USD",
+    "price_postapoc": "0 USD",
     "to_hit": 1,
     "bashing": 5,
     "material": [ "glass", "cotton" ],
@@ -146,7 +146,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 2500
+    "price": "2500 USD"
   },
 {
     "id": "pain_reduction",
@@ -158,7 +158,7 @@
       "activation_message": "You drink deeply.",
       "effects": [ { "id": "pkill1", "duration": 940 } ]
     },
-       "price": 10000
+       "price": "10000 USD"
     },
 {
     "id": "pain_reduction_greater",
@@ -170,7 +170,7 @@
       "activation_message": "You drink deeply.",
       "effects": [ { "id": "pkill1", "duration": 1160 } ]
     },
-    "price": 20000
+    "price": "20000 USD"
   },
 {
     "id": "battle_potion_lesser",
@@ -195,7 +195,7 @@
     "comestible_type": "DRINK",
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "phase": "liquid",
-    "price": 2500
+    "price": "2500 USD"
   },
 {
     "id": "battle_potion",
@@ -207,7 +207,7 @@
       "activation_message": "You drink deeply.",
       "effects": [ { "id": "adrenaline", "duration": 600 } ]
     },
-       "price": 10000
+       "price": "10000 USD"
     },
 {
     "id": "battle_potion_greater",
@@ -219,6 +219,6 @@
       "activation_message": "You drink deeply.",
       "effects": [ { "id": "adrenaline", "duration": 600 } ]
     },
-    "price": 20000
+    "price": "20000 USD"
   }
 ]
