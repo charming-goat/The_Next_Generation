@@ -4,7 +4,7 @@
     "id": "spellcraft",
     "name": { "str": "Spellcraft" },
     "description": "Your skill in the manipulation of your magical abilties.",
-    "display_category": "display_magic"
+    "display_category": "display_general"
   },
   {
     "type": "skill",
@@ -35,7 +35,7 @@
     "display_category": "display_ranged",
     "tags": [ "combat_skill", "weapon_skill" ],   
     "time_to_attack": { "min_time": 20, "base_time": 80, "time_reduction_per_level": 6 },
-    "//": "Come back and update this later ^",
+    "//": "Come back and balaces all of the items later",
     "companion_combat_rank_factor": 1,
     "companion_survival_rank_factor": 1,
     "companion_skill_practice": [
@@ -49,11 +49,21 @@
   {
     "type": "skill",
     "id": "shotgun", 
-    "name": { "str": "Use Magical Device" },
-    "description": "Your knowledge of magical devices allows you to use them while lessening the chance of failure.",
-    "display_category": "display_crafting"
+    "name": { "str": "One-Handed Mace" },
+    "description": "Your knowledge in using Mace weapons. They have a similar speed to swords but provide blunt damage.",
+    "display_category": "display_melee",
+    "time_to_attack": { "min_time": 40, "base_time": 100, "time_reduction_per_level": 6 },
+    "companion_combat_rank_factor": 1,
+    "companion_survival_rank_factor": 1,
+    "companion_skill_practice": [
+      { "skill": "", "weight": 5 },
+      { "skill": "gathering", "weight": 5 },
+      { "skill": "trapping", "weight": 5 },
+      { "skill": "hunting", "weight": 45 },
+      { "skill": "combat", "weight": 15 }
+    ]
   },
-    {
+  {
     "type": "skill",
     "id": "mechanics",
     "name": { "str": "Mechanics" },
@@ -61,6 +71,24 @@
     "companion_industry_rank_factor": 1,
     "display_category": "display_interaction",
     "companion_skill_practice": [ { "skill": "menial", "weight": 10 }, { "skill": "construction", "weight": 20 } ]
+  },
+  {
+    "type": "skill",
+    "id": "electronics",
+    "name": { "str": "Short Blades" },
+    "description": "Your skill in short bladed weapons. These weapons tend to be faster and smaller than normal blades. Making them perfect for more mobile fighters.",
+    "companion_industry_rank_factor": 1,
+    "display_category": "display_melee",
+    "time_to_attack": { "min_time": 40, "base_time": 100, "time_reduction_per_level": 6 },
+    "companion_combat_rank_factor": 1,
+    "companion_survival_rank_factor": 1,
+    "companion_skill_practice": [
+      { "skill": "", "weight": 5 },
+      { "skill": "gathering", "weight": 5 },
+      { "skill": "trapping", "weight": 5 },
+      { "skill": "hunting", "weight": 45 },
+      { "skill": "combat", "weight": 15 }
+    ]
   },
   {
     "type": "skill",
@@ -87,5 +115,160 @@
     "description": "Your skill in riding a horse.",
     "display_category": "display_interaction",
     "tags": [ "unaffected_by_focus" ]
+  },
+  {
+    "type": "skill",
+    "id": "launcher",
+    "name": { "str": "One-Handed Axes" },
+    "description": "Your skill in using axe weapons. Axes tend to be heaver than sword and provide extra crushing damage.",
+    "tags": [ "combat_skill", "weapon_skill" ],
+    "time_to_attack": { "min_time": 30, "base_time": 100, "time_reduction_per_level": 7 },
+    "display_category": "display_melee"
+  },
+  {
+    "type": "skill",
+    "id": "bashing",
+    "name": { "str": "Bashing Weapons" },
+    "description": "Your skill in fighting with blunt weaponry, from rocks and sticks to clubs and maces.  Skill increases damage, and higher levels will improve the accuracy of an attack.",
+    "tags": [ "combat_skill", "weapon_skill" ],
+    "companion_combat_rank_factor": 1,
+    "display_category": "display_general",
+    "companion_skill_practice": [ { "skill": "hunting", "weight": 10 }, { "skill": "combat", "weight": 10 } ]
+  },
+  {
+    "type": "skill",
+    "id": "computer",
+    "name": { "str": "Shields" },
+    "description": "Your skill in fighting with a shield. Shields offer great protection but will encumber you.",
+    "display_category": "display_melee",
+    "tags": [ "combat_skill" ],
+    "companion_skill_practice": [ { "skill": "hunting", "weight": 15 }, { "skill": "combat", "weight": 20 } ]
+  },
+  {
+    "type": "skill",
+    "id": "gun",
+    "name": { "str": "Marksmanship" },
+    "description": "Your overall skill in using bows and ranged weapons.  With higher levels, this general experience increases accuracy with any bows or ranged weapons, but is secondary to practice with the type of ranged weapon in question.",
+    "tags": [ "combat_skill" ],
+    "display_category": "display_general",
+    "companion_skill_practice": [ { "skill": "gathering", "weight": 60 }, { "skill": "combat", "weight": 5 } ]
+  },
+  {
+    "type": "skill",
+    "id": "melee",
+    "display_category": "display_general",
+    "name": { "str": "Melee" },
+    "description": "Your skill and finesse in personal combat, both with and without a weapon.  Higher levels can significantly increase the accuracy and effectiveness of your physical attacks.",
+    "tags": [ "combat_skill" ],
+    "time_to_attack": { "min_time": 50, "base_time": 200, "time_reduction_per_level": 20 },
+    "companion_combat_rank_factor": 1,
+    "companion_skill_practice": [
+      { "skill": "", "weight": 5 },
+      { "skill": "gathering", "weight": 5 },
+      { "skill": "trapping", "weight": 5 },
+      { "skill": "hunting", "weight": 10 },
+      { "skill": "recruiting", "weight": 5 },
+      { "skill": "combat", "weight": 20 }
+    ]
+  },
+  {
+    "type": "skill",
+    "id": "bashing",
+    "name": { "str": "Bashing Weapons" },
+    "display_category": "display_general",
+    "description": "Your skill in fighting with blunt weaponry, from rocks and sticks to baseball bats and the butts of rifles.  Skill increases damage, and higher levels will improve the accuracy of an attack.",
+    "tags": [ "combat_skill", "weapon_skill" ],
+    "companion_combat_rank_factor": 1,
+    "companion_skill_practice": [ { "skill": "hunting", "weight": 10 }, { "skill": "combat", "weight": 10 } ]
+  },
+  {
+    "type": "skill",
+    "id": "cutting",
+    "name": { "str": "Cutting Weapons" },
+    "display_category": "display_general",
+    "description": "Your skill in fighting with weaponry designed to cut, hack and slash an opponent.  Lower levels of skill increase accuracy and damage, while higher levels will help to bypass heavy armor and thick hides.",
+    "tags": [ "combat_skill", "weapon_skill" ],
+    "companion_combat_rank_factor": 1,
+    "companion_skill_practice": [ { "skill": "hunting", "weight": 10 }, { "skill": "combat", "weight": 10 } ]
+  },
+  {
+    "type": "skill",
+    "id": "stabbing",
+    "name": { "str": "Piercing Weapons" },
+    "display_category": "display_general",
+    "description": "Your skill in fighting with knives, spears and other such stabbing implements.  Skill increases attack accuracy as well as the chance of inflicting a deadly and critical blow.",
+    "tags": [ "combat_skill", "weapon_skill" ],
+    "companion_combat_rank_factor": 1,
+    "companion_skill_practice": [ { "skill": "hunting", "weight": 10 }, { "skill": "combat", "weight": 10 } ]
+  },
+  {
+    "type": "skill",
+    "id": "one_handed_sword",
+    "name": { "str": "One-Handed Swords" },
+    "description": "Your skill in using One-Handed Sword weapons. A good middle ground for speed and damage. It also allows you to use items in your off-hand.",
+    "tags": [ "combat_skill", "weapon_skill" ],
+    "time_to_attack": { "min_time": 100, "base_time": 200, "time_reduction_per_level": 10 },
+      "companion_skill_practice": [
+      { "skill": "", "weight": 5 },
+      { "skill": "hunting", "weight": 10 },
+      { "skill": "combat", "weight": 20 }
+    ],
+    "display_category": "display_melee"
+  },
+  {
+    "type": "skill",
+    "id": "two_handed_sword",
+    "name": { "str": "Two-Handed Sword" },
+    "description": "Your skill in using Two-Handed Sword weapons. A good middle ground for speed and damage. It also allows you to use items in your off-hand.",
+    "tags": [ "combat_skill", "weapon_skill" ],
+    "time_to_attack": { "min_time": 100, "base_time": 200, "time_reduction_per_level": 10 },
+      "companion_skill_practice": [
+      { "skill": "", "weight": 5 },
+      { "skill": "hunting", "weight": 10 },
+      { "skill": "combat", "weight": 20 }
+    ],
+    "display_category": "display_melee"
+  },
+  {
+    "type": "skill",
+    "id": "two_handed_axe",
+    "name": { "str": "Two-Handed Axes" },
+    "description": "Your skill in using Two-Handed Axe weapons. Axes tend to be heaver than sword and provide extra crushing damage.",
+    "tags": [ "combat_skill", "weapon_skill" ],
+    "time_to_attack": { "min_time": 30, "base_time": 100, "time_reduction_per_level": 7 },
+    "display_category": "display_melee",
+          "companion_skill_practice": [
+      { "skill": "", "weight": 5 },
+      { "skill": "hunting", "weight": 10 },
+      { "skill": "combat", "weight": 20 }
+    ]
+  },
+  {
+    "type": "skill",
+    "id": "two_handed_mace",
+    "name": { "str": "Two-Handed Mace" },
+    "description": "Your skill in using Two-Handed Mace weapons. They have a similar speed to two-handed swords but provide blunt damage.",
+    "tags": [ "combat_skill", "weapon_skill" ],
+    "time_to_attack": { "min_time": 30, "base_time": 100, "time_reduction_per_level": 7 },
+    "display_category": "display_melee",
+          "companion_skill_practice": [
+      { "skill": "", "weight": 5 },
+      { "skill": "hunting", "weight": 10 },
+      { "skill": "combat", "weight": 20 }
+    ]
+  },
+    {
+    "type": "skill",
+    "id": "spear",
+    "name": { "str": "Spears" },
+    "description": "Your skill in using Spear weapons. They only do piercing damage and tend to hit weaker than a sword but they can attack from a short distance away.",
+    "tags": [ "combat_skill", "weapon_skill" ],
+    "time_to_attack": { "min_time": 30, "base_time": 100, "time_reduction_per_level": 7 },
+    "display_category": "display_melee",
+          "companion_skill_practice": [
+      { "skill": "", "weight": 5 },
+      { "skill": "hunting", "weight": 10 },
+      { "skill": "combat", "weight": 20 }
+    ]
   }
 ]

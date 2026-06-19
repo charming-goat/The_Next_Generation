@@ -1,7 +1,12 @@
 [
   {
     "type": "skill_display_type",
-    "id": "display_magice",
+    "id": "display_magic",
     "display_string": "Magic"
+  },
+  {
+    "type": "skill_display_type",
+    "id": "display_general",
+    "display_string": "General skills"
   }
 ]
