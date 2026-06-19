@@ -59,11 +59,88 @@
     "copy-from": "Occupied Lumbermill",
     "occurrences": [ 0, 0 ]
   },
-  
+  {
+    "type": "overmap_special",
+    "id": "trans-coast logistics",
+    "copy-from": "trans-coast logistics",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "lab_basement",
+    "copy-from": "lab_basement",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "lab_core",
+    "copy-from": "lab_core",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Ice Lab",
+    "copy-from": "Ice Lab",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Central Lab",
+    "copy-from": "Central Lab",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "main_lab",
+    "copy-from": "main_lab",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "sunken_lab",
+    "copy-from": "sunken_lab",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "lab_mutagen_6_level",
+    "copy-from": "lab_mutagen_6_level",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "mil_airfield",
+    "copy-from": "mil_airfield",
+    "occurrences": [ 0, 0 ]
+  },
   {
     "type": "overmap_special",
     "id": "Drive-in Theater",
     "copy-from": "Drive-in Theater",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "mil_blacksite",
+    "copy-from": "mil_blacksite",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "state_police",
+    "copy-from": "state_police",
+    "occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "science lab",
+    "copy-from": "science lab",
+    "occurrences": [ 0, 0 ]
+  },
+{
+    "type": "overmap_special",
+    "id": "science lab",
+    "copy-from": "science lab",
     "occurrences": [ 0, 0 ]
   },
 
@@ -839,7 +916,7 @@
     "type": "overmap_special",
     "id": "Lumbermill",
     "copy-from": "Lumbermill",
-    "occurrences": [ 0, 2 ]
+    "occurrences": [ 0, 0 ]
   },
   {
     "type": "overmap_special",
