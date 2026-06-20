@@ -269,7 +269,8 @@
               "f_boulder_medium": 8,
               "f_boulder_large": 1,
               "t_pit": 1,
-              "t_pit_shallow": 1
+              "t_pit_shallow": 1,
+              "inn_cultist_nested": 128
             }
           }
         },
