@@ -1,0 +1,12 @@
+[
+ {
+    "type": "mutation",
+    "id": "ROGUE",
+    "name": "Rogue",
+    "points": 0,
+    "description": "Rogues are nimble fighters. They tend to focus on light armor and quick blades. Their mastery of traps makes it hard to keep them out.",
+    "starting_trait": true,
+    "purifiable": false,
+    "valid": false
+  }
+]
