@@ -24,5 +24,31 @@
       ],
       "message": "You add catacombs and hostile fortifications to your map."
     }
-  } 
+  },
+  {
+    "id": "intro_letter",
+    "type": "GENERIC",
+    "category": "maps",
+    "name": { "str": "Letter from the King" },
+    "description": "This is a letter from the king of Valfor: It matters not if this letter has found you by intention of by chance. If you've a strong mind and a stronger arm we need all the help we can get in Valfor. A most ancient enemy has returned and it could spell doom for us all. Please answer this summons with the up most alacrity. The fate of our very world is at stake.",
+    "weight": "30 g",
+    "volume": "250 ml",
+    "price": "500 USD",
+    "to_hit": -1,
+    "material": [ "paper" ],
+    "symbol": ";",
+    "looks_like": "survivormap",
+    "color": "white",
+    "use_action": {
+      "type": "reveal_map",
+      "radius": 500,
+      "terrain": [
+        "goblin_camp_gate",
+        "hobgoblin_camp_gate",
+        "bandit_camp_important",
+        "old_catacomb_enter"
+      ],
+      "message": "You are unsure of what to do with this letter. Maybe soneone in a nearby town can help?"
+    }
+  }
 ]
