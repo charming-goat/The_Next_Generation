@@ -232,11 +232,13 @@
     "proportional": { "price": 1.2, "bashing": 1.2, "cutting": 1.2 }
   },
   {
-    "type": "GENERIC",
+    "type": "GUN",
     "id": "mace+1",
     "copy-from": "mace",
     "looks_like": "mace",
     "name": "mace+",
+    "skill":"one_handed_sword",
+    "range": 0,
     "proportional": { "price": 1.2, "bashing": 1.2, "cutting": 1.2 }
   },
   {
