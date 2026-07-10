@@ -1,0 +1,17 @@
+[
+  {
+    "type": "furniture",
+    "id": "well",
+    "name": "Well",
+    "description": "A bucket attached to a line. You can retreive waster from a crisp clear underground aquaduct.",
+    "symbol": "U",
+    "color": "light_blue",
+    "looks_like": "tr_metal_funnel",
+    "move_cost_mod": -1,
+    "coverage": 30,
+    "required_str": 6,
+    "flags": [ "TRANSPARENT" ],
+    "examine_action": "liquid_source",
+    "provides_liquids": "water"
+  }
+]

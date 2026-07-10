@@ -1047,5 +1047,23 @@
     "sym": "#",
     "see_cost": 1,
     "color": "brown"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "glendale_NW",
+    "name": "Glendale",
+    "sym": "#",
+    "see_cost": 1,
+    "color": "yellow",
+    "flags": ["RISK_LOW", "SOURCE_SAFETY" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "glendale_NE",
+    "name": "Glendale",
+    "sym": "#",
+    "see_cost": 1,
+    "color": "yellow",
+    "flags": ["RISK_LOW", "SOURCE_SAFETY" ]
   }
 ]

@@ -1,0 +1,37 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ [ "glendale_NW", "glendale_NE" ] ],
+    "object": {
+      "fill_ter": "t_grass",
+      "rows": [
+"                                                ",
+"                                                ",
+"    llllll       llllll           llllll        ",
+"    lB  Fl       lB  Fl           lB  Fl        ",
+"    lC   l       lC   l           lC   l        ",
+"    l    l       l    l           l    l        ",
+"    l  cTl       l  cTl           l  cTl        ",
+"    lxllll       lxllll           lxllll        ",
+"                                                ",
+"                                                ",
+"                                                ",
+"                       O                        ",
+"                                                ",
+"                                                ",
+"                                                ",
+"    lxllll        lxllll          lxllll        ",
+"    l  cTl        l  cTl          l  cTl        ",
+"    l    l        l    l          l    l        ",
+"    lC   l        lC   l          lC   l        ",
+"    lB  Fl        lB  Fl          lB  Fl        ",
+"    llllll        llllll          llllll        ",
+"                                                ",
+"                                                ",
+"                                                "
+      ],
+      "palettes": [ "village" ]
+    }
+  }
+]

@@ -178,7 +178,6 @@
     "FOOT_L",
     "FOOT_R"
 		],
-    "Flag": ["directed_push"],
 	"scale_dex": true
   	}
 ]

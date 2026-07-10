@@ -3256,5 +3256,15 @@
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 1, -1 ],
     "occurrences": [ 0, 3 ]
-	}
+	},
+{
+    "type": "overmap_special",
+    "id": "glendale",
+    "overmaps":[
+    {"point": [0, 0, 0], "overmap": "glendale_NW_north"},
+    {"point": [1, 0, 0], "overmap": "glendale_NE_north"}],
+    "locations": [ "forest"],
+    "occurrences": [ 1, 1 ],
+    "flags": ["UNIQUE"]
+  }
  ]
