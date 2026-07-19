@@ -1,3 +1,5 @@
 # Fantasy
  
- A collaboration between a small group of CDDA modders, Fantasy (name still being worked on), will be just what it sounds like, a fantasy world undergoing some decidedly rough times with lots of monsters rising up and making trouble. Adventures, quests, dungeons, you name it, it'll be in there.
+Cataclysm: The Next Generation is a fantasy overhaul for Cataclysm: Bright nights. It will be a story focused mod hoping to build an interesting fantasy worlrd off hundreds of years post blob invasion.
+
+Credit: Shout out to MutaMan, MNG-cataclysm, foulman, and Kenan2000 for making the original CDDA version of this mod. And shout out to the CCBN devs for making an awesome fork!
